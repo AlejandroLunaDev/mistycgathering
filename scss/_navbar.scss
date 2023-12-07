@@ -1,0 +1,120 @@
+@use "sass:map";
+.nav {
+    background-color:$color-secondary;
+    justify-content: space-around;
+
+    & .navbar-brand {
+        @include flex;
+
+        &__logo {
+            height: 120px;
+            rotate: calc(-20deg);
+            @media (width < map.get($break-pontis, "sm")) {
+                height: 48px;
+            }
+            
+        }
+    
+        &__name {
+            font-family:$font-family-primary ;
+            text-transform: capitalize;
+            margin-top: 20px;
+            & h1, h2 {
+                font-size: 28px;
+                font-weight: bold;
+            }
+            & h2 {
+                margin-left: 15px;
+                color:$color-primary;
+            }
+            @media (width < map.get($break-pontis, "sm")) {
+                & h1, h2 {
+                    font-size: 12px;
+           
+                }
+            }
+    
+        }
+    }
+
+    & form {
+        & .search-input-container {
+            position: relative;
+
+            & .busqueda {
+                width: 480px;
+                border-radius: 10px;
+                @media (width < map.get($break-pontis, "sm")) {
+                    width: 460px;
+                    height: 30px;
+                }
+                @media (width < map.get($break-pontis, "xs")) {
+                    width: 300px;
+                }
+            }
+            & .search-btn {
+                background-color: #575353;
+                border-radius: 0 10px 10px 0;
+                position: absolute;
+                right: 0;
+                top: 0;
+                bottom: 0;
+                margin: auto;
+                
+                &:hover{
+                    background-color:#575353;
+                }
+            }
+            & span {
+                color:$color-primary;
+            }
+        }
+    }
+
+    & .custom-nav-ul{
+        gap: 30px;
+
+        & a {
+            font-family: $font-family-scondary;
+            text-transform: capitalize;
+            font-size: 22px;
+
+            &:hover {
+                color:$color-primary !important;
+            }
+        }
+    
+    }
+
+    & .user {
+        
+        @include flex;
+        font-family:$font-family-scondary;
+
+        &__logo {
+            height: 70px;
+        }
+        & p {
+            font-size: 12px;
+            text-transform: capitalize;
+            margin-bottom: 0;
+        }
+        & h3 {
+            font-size: 14px;
+        }
+        &__line {
+            height: 1px;
+            width: 50px;
+            background-color:$color-primary;
+            rotate: calc(90deg);
+        }
+
+        @media (width < map.get($break-pontis, "md")) {
+        display: none;
+        }
+    }
+
+    @media (width < map.get($break-pontis, "sm")) {
+        justify-content: left;
+    }
+}

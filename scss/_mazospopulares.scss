@@ -1,0 +1,43 @@
+.mazos-section {
+    margin: 20px auto;
+
+    &__header {
+        @include flex ($jc:space-between);
+
+        & select:focus {
+            box-shadow: none !important;
+            border: none;
+        }
+        & .select {
+            @include flex($fw:nowrap);
+            & select {
+                & option {
+                    text-transform: capitalize;
+                }
+            }
+        }
+        
+    }
+    
+    & .custom-line {
+        margin: 10px auto;
+        width: 100%;
+        height: 2px;
+        background-color: #DB7E1E;
+    }
+
+    &__body {
+
+        & article {
+            & h5  {
+                color: #DB7E1E ;
+                text-transform: capitalize;
+                font-family: 'Playfair Display', serif;
+            }
+            & .custom-price {
+                background-color: #545454;
+            }
+            
+        }
+    }
+}

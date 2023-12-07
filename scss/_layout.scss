@@ -1,0 +1,96 @@
+@use "sass:map";
+
+//////// GENERAL ////////  
+.container-grid {   
+    max-width: 2440px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+    "header"
+    "main"
+    "footer";
+
+    & header {
+            grid-area: header;
+        }
+        
+    & main {
+            grid-area: main;
+            
+        }
+    & footer {
+            grid-area: footer;
+        }
+
+    //////// INDEX ////////  
+    & .main-index {
+    
+        display: grid;
+        justify-content: center;
+        
+        grid-template-areas: 
+        "hero hero"
+        "section1 aside"
+        "section2 aside"
+        "streaming streaming";
+        @media (width < map.get($break-pontis, "md")) {
+            grid-template-areas: 
+            
+            "section1"
+            "section2"
+            "aside"
+            "streaming ";
+            
+        }
+    
+        & .custom-section-hero {
+            grid-area: hero;
+            
+            & article {
+                & img {
+                    width: 100%;
+                    height: 400px;
+                    
+                }
+            }
+        }
+    
+        & .cartas-populares {
+            grid-area: section1;
+        }
+    
+        & .mazos-section {
+            grid-area: section2;
+
+            &__body {
+                margin: 10px auto;
+                display: grid;
+                grid-template-columns: repeat(4, 1fr); 
+                gap: 20px;
+
+                @media (width < map.get($break-pontis, "md")) {
+                    grid-template-columns: 1fr 1fr;
+
+                    article:nth-last-child(-n+4) {
+                        display: none;
+                    }
+                }
+            }
+
+        }
+    
+        & .custom-streaming {
+            grid-area: streaming;
+            margin: 20px auto;
+            width: 100%;
+                & iframe {
+                    width: 100%;
+                    height: 450px;
+                }
+        }
+    
+        & .aside-index {
+            grid-area: aside;
+        }
+    }
+}

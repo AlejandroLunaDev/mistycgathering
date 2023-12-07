@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:title" content="Mistyc Gathering" />
+    <meta property="og:description" content="Pre-entrega HTML-CSS CoderHouse" />
+
+    
+    <link rel="Icon" href="../img/Logo.png">
+    
+    <title>Mistyc Gathering</title>
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="../css/styles.css">
+
+    <!-- Google Icons -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+
+</head>
+<body class="container-grid">
+  <header>
+      <nav class=" navbar navbar-expand-lg custom-nav ">
+              <a class="navbar-brand d-flex" href="../index.html">
+                  <img class="nav-logo" src="../img/LogoTrue.png" alt="logo">
+                  <div class="name-logo">
+                    <h1 class="text-light">mistyc</h1>
+                    <h2>gathering</h2>
+                  </div>
+              </a>
+              <article>
+                <form class=" search-form " role="search">
+                  <div class="search-input-container">
+                      <input class="form-control  busqueda " type="search" placeholder="Busca tus cartas y mazos" aria-label="Search">
+                      <button class="btn search-btn" type="submit">
+                          <span class="material-symbols-outlined">
+                              search
+                          </span>
+                      </button>
+                  </div>
+                </form>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav custom-nav-ul">
+                        <li class="nav-item ">
+                            <a class="nav-link text-light"  href="mazos.html">mazos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light" href="#">ediciones</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light" href="bazar.html">bazar</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light" href="./articulos.html">artículos</a>
+                        </li>
+                    </ul>
+                </div>
+              </article>
+              <article class="user d-flex">
+                  <img class="user-logo" src="../img/logoUser.png" alt="user-logo" style="height: 70px;">
+                  <div class="text-light">
+                    <a href="./registrarse.html" class="text-decoration-none text-light">
+                      <p>registrarse</p>
+                    </a>
+                    <a href="#" class="text-decoration-none text-light">
+                        <h3 >Iniciar sesión</h3>
+                    </a>
+                  </div>
+                  <div class="user-line"></div>
+                  <div>
+                      <a href="#">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 39 39" fill="none">
+                            <path d="M8.625 34.75C8.625 35.6783 8.99375 36.5685 9.65013 37.2249C10.3065 37.8813 11.1967 38.25 12.125 38.25C13.0533 38.25 13.9435 37.8813 14.5999 37.2249C15.2563 36.5685 15.625 35.6783 15.625 34.75M20.875 34.75C20.875 35.6783 21.2437 36.5685 21.9001 37.2249C22.5565 37.8813 23.4467 38.25 24.375 38.25C25.3033 38.25 26.1935 37.8813 26.8499 37.2249C27.5063 36.5685 27.875 35.6783 27.875 34.75M11.25 11.125H38.375V11.5625L37.9567 12.0577C33.7055 17.1065 31.3745 23.4948 31.375 30.095V30.375H8.625V27.085C8.625 23.445 8.5095 19.8085 7.9495 16.214C6.98 9.991 4.83975 0.625 0.75 0.625" stroke="white"/>
+                          </svg>
+                      </a>
+                  </div>
+              </article>
+      </nav>
+
+
+  </header>
+  <main class="container mazos">
+
+    <!--///////////////////////////////////////////////////////////////////////////////////////////
+    MAZOS / MAIN / SUB NAV
+    ///////////////////////////////////////////////////////////////////////////////////////////
+    -->
+
+    <section class="navbar navbar-expand-lg custom-subNav">
+        <article class="container-fluid">
+            <div class="mx-auto">
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 d-none d-md-flex">
+                        <li class="nav-item ">
+                            <a class="nav-link " aria-current="page" href="#">standard</a>
+                        </li>
+                        <span class="fs-4 fw-light">|</span>
+                        <li class="nav-item">
+                            <a class="nav-link " href="#">modern</a>
+                          </li>
+                          <span class="fs-4 fw-light">|</span>
+                        <li class="nav-item">
+                            <a class="nav-link ">pioneer</a>
+                        </li>
+                        <span class="fs-4 fw-light">|</span>
+                        <li class="nav-item">
+                            <a class="nav-link ">explorer</a>
+                        </li>
+                        <span class="fs-4 fw-light">|</span>
+                        <li class="nav-item">
+                            <a class="nav-link ">alchemy</a>
+                        </li>
+                        <span class="fs-4 fw-light">|</span>
+                        <li class="nav-item ">
+                            <a class="nav-link " aria-current="page" href="#">pauper</a>
+                        </li>
+                        <span class="fs-4 fw-light">|</span>
+                        <li class="nav-item">
+                            <a class="nav-link " href="#">legacy</a>
+                          </li>
+                          <span class="fs-4 fw-light">|</span>
+                        <li class="nav-item">
+                            <a class="nav-link ">vintage</a>
+                        </li>
+                        <span class="fs-4 fw-light">|</span>
+                        <li class="nav-item">
+                            <a class="nav-link ">commander 1vs1</a>
+                        </li>
+                        <span class="fs-4 fw-light">|</span>
+                        <li class="nav-item">
+                            <a class="nav-link ">commander</a>
+                        </li>
+                        <span class="fs-4 fw-light">|</span>
+                        <li class="nav-item">
+                            <a class="nav-link ">historic brawl</a>
+                        </li>
+                        <span class="fs-4 fw-light">|</span>
+                        <li class="nav-item">
+                            <a class="nav-link ">brawk</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </article>
+    </section>
+
+        <!--///////////////////////////////////////////////////////////////////////////////////////////
+    MAZOS / MAIN / MAZOS
+    ///////////////////////////////////////////////////////////////////////////////////////////
+    -->
+
+    <section class="mazos-section">
+        <header class="d-flex flex-column ">
+            <h1>Pauper metagame</h1>
+            <div class="d-flex jus custom-selct">
+                <h5>Mostrar mazos de los últimos</h5>
+                <select class="form-select custom-select-deck " aria-label="Default select example">
+                    <option selected>7 días</option>
+                    <option value="1">14 días</option>
+                    <option value="2"> 30 días</option>
+                    <option value="3">90 días</option>
+                    <option value="4">365 días</option>
+                </select>
+            </div>
+        </header> 
+        <main>
+            <article>
+            <div class="card shadow">
+              <header>
+                <img src="../img/mazos-burn-img.png" class="card-img-top" alt="img-top">
+              </header>
+              <div class="card-body">
+                  <h5 class="card-title">burn</h5>
+                  <picture>
+                    <img src="../img/logoFire.png" alt="" style="height: 30px;">
+                  </picture>
+                </div>
+                <ul>
+                  <li>wrenn&#180;s resolve</li>
+                  <li>reckless impulse</li>
+                  <li>kessing flamegrather</li>
+                </ul>
+    
+              <div class="card-footer d-flex justify-content-between">
+                  <div class="ss">
+                    <small class="text-capitalize fw-bold">por zebra</small>
+                    <p>03/11/2023</p>
+                  </div>
+                <div class="custom-price px-2 rounded">
+                  <small class="text-light ">$ 63</small>
+                </div>
+              </div>
+            </div>
+            </article>
+            <article>
+                <div class="card shadow">
+                  <header>
+                    <img src="../img/mazos-burn-img.png" class="card-img-top" alt="img-top">
+                  </header>
+                  <div class="card-body">
+                    <h5 class="card-title">burn</h5>
+                    <div class="d-flex justify-content-between">
+                      <picture>
+                        <img src="../img/logoFire.png" alt="" style="height: 30px;">
+                      </picture>
+                    </div>
+                  </div>
+                  <ul>
+                    <li>wrenn&#180;s resolve</li>
+                    <li>reckless impulse</li>
+                    <li>kessing flamegrather</li>
+                  </ul>
+        
+                  <div class="card-footer d-flex justify-content-between">
+                      <div class="ss">
+                        <small class="text-capitalize fw-bold">por zebra</small>
+                        <p>03/11/2023</p>
+                      </div>
+                    <div class="custom-price px-2 rounded">
+                      <small class="text-light ">$ 63</small>
+                    </div>
+                  </div>
+                </div>
+            </article>
+            <article>
+                <div class="card shadow">
+                  <header>
+                    <img src="../img/mazos-burn-img.png" class="card-img-top" alt="img-top">
+                  </header>
+                  <div class="card-body">
+                    <h5 class="card-title">burn</h5>
+                    <div class="d-flex justify-content-between">
+                      <picture>
+                        <img src="../img/logoFire.png" alt="" style="height: 30px;">
+                      </picture>
+                    </div>
+                  </div>
+                  <ul>
+                    <li>wrenn&#180;s resolve</li>
+                    <li>reckless impulse</li>
+                    <li>kessing flamegrather</li>
+                  </ul>
+        
+                  <div class="card-footer d-flex justify-content-between">
+                      <div class="ss">
+                        <small class="text-capitalize fw-bold">por zebra</small>
+                        <p>03/11/2023</p>
+                      </div>
+                    <div class="custom-price px-2 rounded">
+                      <small class="text-light ">$ 63</small>
+                    </div>
+                  </div>
+                </div>
+            </article>
+            <article>
+                <div class="card shadow">
+                    <header>
+                    <img src="../img/mazos-burn-img.png" class="card-img-top" alt="img-top">
+                    </header>
+                    <div class="card-body">
+                    <h5 class="card-title">burn</h5>
+                    <div class="d-flex justify-content-between">
+                        <picture>
+                        <img src="../img/logoFire.png" alt="" style="height: 30px;">
+                        </picture>
+                    </div>
+                    </div>
+                    <ul>
+                    <li>wrenn&#180;s resolve</li>
+                    <li>reckless impulse</li>
+                    <li>kessing flamegrather</li>
+                    </ul>
+        
+                    <div class="card-footer d-flex justify-content-between">
+                        <div class="ss">
+                        <small class="text-capitalize fw-bold">por zebra</small>
+                        <p>03/11/2023</p>
+                        </div>
+                    <div class="custom-price px-2 rounded">
+                        <small class="text-light ">$ 63</small>
+                    </div>
+                    </div>
+                </div>
+            </article>
+            <article>
+                <div class="card shadow">
+                  <header>
+                    <img src="../img/mazos-burn-img.png" class="card-img-top" alt="img-top">
+                  </header>
+                  <div class="card-body">
+                    <h5 class="card-title">burn</h5>
+                    <div class="d-flex justify-content-between">
+                      <picture>
+                        <img src="../img/logoFire.png" alt="" style="height: 30px;">
+                      </picture>
+                    </div>
+                  </div>
+                  <ul>
+                    <li>wrenn&#180;s resolve</li>
+                    <li>reckless impulse</li>
+                    <li>kessing flamegrather</li>
+                  </ul>
+        
+                  <div class="card-footer d-flex justify-content-between">
+                      <div class="ss">
+                        <small class="text-capitalize fw-bold">por zebra</small>
+                        <p>03/11/2023</p>
+                      </div>
+                    <div class="custom-price px-2 rounded">
+                      <small class="text-light ">$ 63</small>
+                    </div>
+                  </div>
+                </div>
+            </article>
+            <article>
+                <div class="card shadow">
+                  <header>
+                    <img src="../img/mazos-burn-img.png" class="card-img-top" alt="img-top">
+                  </header>
+                  <div class="card-body">
+                    <h5 class="card-title">burn</h5>
+                    <div class="d-flex justify-content-between">
+                      <picture>
+                        <img src="../img/logoFire.png" alt="" style="height: 30px;">
+                      </picture>
+                    </div>
+                  </div>
+                  <ul>
+                    <li>wrenn&#180;s resolve</li>
+                    <li>reckless impulse</li>
+                    <li>kessing flamegrather</li>
+                  </ul>
+        
+                  <div class="card-footer d-flex justify-content-between">
+                      <div class="ss">
+                        <small class="text-capitalize fw-bold">por zebra</small>
+                        <p>03/11/2023</p>
+                      </div>
+                    <div class="custom-price px-2 rounded">
+                      <small class="text-light ">$ 63</small>
+                    </div>
+                  </div>
+                </div>
+            </article>
+            <article>
+                <div class="card shadow">
+                  <header>
+                    <img src="../img/mazos-burn-img.png" class="card-img-top" alt="img-top">
+                  </header>
+                  <div class="card-body">
+                    <h5 class="card-title">burn</h5>
+                    <div class="d-flex justify-content-between">
+                      <picture>
+                        <img src="../img/logoFire.png" alt="" style="height: 30px;">
+                      </picture>
+                    </div>
+                  </div>
+                  <ul>
+                    <li>wrenn&#180;s resolve</li>
+                    <li>reckless impulse</li>
+                    <li>kessing flamegrather</li>
+                  </ul>
+        
+                  <div class="card-footer d-flex justify-content-between">
+                      <div class="ss">
+                        <small class="text-capitalize fw-bold">por zebra</small>
+                        <p>03/11/2023</p>
+                      </div>
+                    <div class="custom-price px-2 rounded">
+                      <small class="text-light ">$ 63</small>
+                    </div>
+                  </div>
+                </div>
+            </article>
+            <article>
+                <div class="card shadow">
+                    <header>
+                    <img src="../img/mazos-burn-img.png" class="card-img-top" alt="img-top">
+                    </header>
+                    <div class="card-body">
+                    <h5 class="card-title">burn</h5>
+                    <div class="d-flex justify-content-between">
+                        <picture>
+                        <img src="../img/logoFire.png" alt="" style="height: 30px;">
+                        </picture>
+                    </div>
+                    </div>
+                    <ul>
+                    <li>wrenn&#180;s resolve</li>
+                    <li>reckless impulse</li>
+                    <li>kessing flamegrather</li>
+                    </ul>
+        
+                    <div class="card-footer d-flex justify-content-between">
+                        <div class="ss">
+                        <small class="text-capitalize fw-bold">por zebra</small>
+                        <p>03/11/2023</p>
+                        </div>
+                    <div class="custom-price px-2 rounded">
+                        <small class="text-light ">$ 63</small>
+                    </div>
+                    </div>
+                </div>
+            </article>
+    
+        </main>
+    </section>
+  
+  </main>
+  <footer>
+
+
+    <!--///////////////////////////////////////////////////////////////////////////////////////////
+    INDEX / FOOTER / SOCIAL
+   ///////////////////////////////////////////////////////////////////////////////////////////
+    -->
+
+      <article class="d-flex flex-column social">
+        <h2 class="text-light">Seguinos</h2>
+        <ul class="d-flex custom-social">
+          <li class="nav-item ">
+              <a class="nav-link text-light" aria-current="page" href="#">
+                <svg xmlns="http://www.w3.org/2000/svg" width="26" height="28" viewBox="0 0 24 26" fill="none">
+                  <path d="M19.27 5.99959C17.94 5.35725 16.5 4.89103 15 4.62166C14.9868 4.62122 14.9738 4.62378 14.9617 4.62915C14.9496 4.63452 14.9388 4.64257 14.93 4.65274C14.75 4.99463 14.54 5.44013 14.4 5.78202C12.809 5.53337 11.191 5.53337 9.6 5.78202C9.46 5.42977 9.25 4.99463 9.06 4.65274C9.05 4.63202 9.02 4.62166 8.99 4.62166C7.49 4.89103 6.06 5.35725 4.72 5.99959C4.71 5.99959 4.7 6.00995 4.69 6.02031C1.97 10.237 1.22 14.3397 1.59 18.4009C1.59 18.4217 1.6 18.4424 1.62 18.4527C3.42 19.8203 5.15 20.6491 6.86 21.1982C6.89 21.2086 6.91999 21.1982 6.93 21.1775C7.33 20.6077 7.69 20.0068 8 19.3748C8.02 19.3334 8 19.2919 7.96 19.2816C7.39 19.0536 6.85 18.7843 6.32 18.4735C6.28 18.4527 6.27999 18.3906 6.31 18.3595C6.42 18.2766 6.52999 18.1834 6.64 18.1005C6.66 18.0798 6.69 18.0798 6.71 18.0901C10.15 19.7167 13.86 19.7167 17.26 18.0901C17.28 18.0798 17.31 18.0798 17.33 18.1005C17.44 18.1937 17.55 18.2766 17.66 18.3699C17.7 18.4009 17.7 18.4631 17.65 18.4838C17.13 18.805 16.58 19.064 16.01 19.2919C15.97 19.3023 15.96 19.3541 15.97 19.3852C16.29 20.0172 16.65 20.6181 17.04 21.1879C17.07 21.1982 17.1 21.2086 17.13 21.1982C18.85 20.6491 20.58 19.8203 22.38 18.4527C22.4 18.4424 22.41 18.4217 22.41 18.4009C22.85 13.7077 21.68 9.63607 19.31 6.02031C19.3 6.00995 19.29 5.99959 19.27 5.99959ZM8.52 15.9248C7.49 15.9248 6.63 14.9406 6.63 13.7284C6.63 12.5163 7.47 11.532 8.52 11.532C9.58 11.532 10.42 12.5266 10.41 13.7284C10.41 14.9406 9.57 15.9248 8.52 15.9248ZM15.49 15.9248C14.46 15.9248 13.6 14.9406 13.6 13.7284C13.6 12.5163 14.44 11.532 15.49 11.532C16.55 11.532 17.39 12.5266 17.38 13.7284C17.38 14.9406 16.55 15.9248 15.49 15.9248Z" fill="#545454"/>
+                </svg>
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link text-light" href="#">
+                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="26" viewBox="0 0 20 24" fill="none">
+                  <g clip-path="url(#clip0_281_598)">
+                    <path d="M12.5111 16.2517V18.9557C12.5111 19.5282 12.3503 19.8144 12.0286 19.8144C11.839 19.8144 11.6534 19.7204 11.472 19.5324V15.675C11.6534 15.487 11.839 15.393 12.0286 15.393C12.3503 15.393 12.5111 15.6792 12.5111 16.2517ZM16.6921 16.2645V16.854H15.5788V16.2645C15.5788 15.6835 15.7643 15.393 16.1354 15.393C16.5065 15.393 16.6921 15.6835 16.6921 16.2645ZM4.74284 13.4707H6.06641V12.266H2.20703V13.4707H3.50586V20.7627H4.74284V13.4707ZM8.30534 20.7627H9.40625V14.4319H8.30534V19.2761C8.05794 19.635 7.82292 19.8144 7.60026 19.8144C7.45182 19.8144 7.36524 19.7247 7.3405 19.5453C7.33225 19.5196 7.32813 19.3701 7.32813 19.0967V14.4319H6.22721V19.4427C6.22721 19.8614 6.2602 20.1732 6.32617 20.3783C6.42513 20.6944 6.66428 20.8524 7.04362 20.8524C7.43945 20.8524 7.86003 20.5919 8.30534 20.0707V20.7627ZM13.612 18.866V16.3414C13.612 15.7177 13.5749 15.2948 13.5007 15.0726C13.3605 14.5942 13.0677 14.355 12.6224 14.355C12.2101 14.355 11.8266 14.5856 11.472 15.047V12.266H10.3711V20.7627H11.472V20.1476C11.8431 20.6175 12.2266 20.8524 12.6224 20.8524C13.0677 20.8524 13.3605 20.6175 13.5007 20.1476C13.5749 19.9169 13.612 19.4897 13.612 18.866ZM17.793 18.7379V18.5713H16.6673C16.6673 19.007 16.6591 19.2676 16.6426 19.353C16.5849 19.6606 16.4199 19.8144 16.1478 19.8144C15.7684 19.8144 15.5788 19.5196 15.5788 18.9301V17.8152H17.793V16.4952C17.793 15.8202 17.6816 15.3247 17.459 15.0086C17.1374 14.5728 16.7003 14.355 16.1478 14.355C15.587 14.355 15.1458 14.5728 14.8242 15.0086C14.5933 15.3247 14.4779 15.8202 14.4779 16.4952V18.7122C14.4779 19.3872 14.5974 19.8827 14.8366 20.1989C15.1582 20.6346 15.6035 20.8524 16.1725 20.8524C16.7663 20.8524 17.2116 20.626 17.5085 20.1732C17.6569 19.9425 17.7435 19.7119 17.7682 19.4812C17.7847 19.4043 17.793 19.1565 17.793 18.7379ZM10.2721 7.03728V4.34601C10.2721 3.7565 10.0948 3.46174 9.74024 3.46174C9.38564 3.46174 9.20833 3.7565 9.20833 4.34601V7.03728C9.20833 7.63534 9.38564 7.93437 9.74024 7.93437C10.0948 7.93437 10.2721 7.63534 10.2721 7.03728ZM19.166 16.6618C19.166 18.661 19.0588 20.1561 18.8444 21.1472C18.729 21.6513 18.4898 22.0742 18.127 22.4159C17.7641 22.7577 17.3435 22.9542 16.8652 23.0055C15.3479 23.1849 13.0595 23.2746 10 23.2746C6.94054 23.2746 4.65213 23.1849 3.13477 23.0055C2.65647 22.9542 2.23383 22.7577 1.86686 22.4159C1.49989 22.0742 1.2628 21.6513 1.1556 21.1472C0.941189 20.1903 0.833984 18.6952 0.833984 16.6618C0.833984 14.6625 0.941189 13.1674 1.1556 12.1763C1.27105 11.6722 1.5102 11.2493 1.87305 10.9076C2.23589 10.5658 2.66059 10.3651 3.14714 10.3052C4.65625 10.1344 6.94054 10.0489 10 10.0489C13.0595 10.0489 15.3479 10.1344 16.8652 10.3052C17.3435 10.3651 17.7662 10.5658 18.1331 10.9076C18.5001 11.2493 18.7372 11.6722 18.8444 12.1763C19.0588 13.1332 19.166 14.6284 19.166 16.6618ZM6.82096 0.309113H8.08268L6.58594 5.42252V8.89553H5.34896V5.42252C5.23351 4.79028 4.98199 3.88465 4.5944 2.70562C4.28928 1.82562 4.02127 1.02678 3.79036 0.309113H5.10156L5.97982 3.6796L6.82096 0.309113ZM11.3978 4.57669V6.81941C11.3978 7.51145 11.2823 8.01553 11.0514 8.33165C10.7381 8.76738 10.301 8.98524 9.74024 8.98524C9.18772 8.98524 8.75478 8.76738 8.44141 8.33165C8.2105 8.00699 8.09505 7.50291 8.09505 6.81941V4.57669C8.09505 3.8932 8.2105 3.39339 8.44141 3.07727C8.75478 2.64154 9.18772 2.42368 9.74024 2.42368C10.301 2.42368 10.7381 2.64154 11.0514 3.07727C11.2823 3.39339 11.3978 3.8932 11.3978 4.57669ZM15.5417 2.50057V8.89553H14.416V8.19068C13.979 8.72039 13.5543 8.98524 13.1419 8.98524C12.7626 8.98524 12.5193 8.82718 12.4121 8.51107C12.3461 8.30602 12.3132 7.98563 12.3132 7.5499V2.50057H13.4388V7.20388C13.4388 7.48582 13.4429 7.63534 13.4512 7.65242C13.4759 7.84039 13.5625 7.93437 13.7109 7.93437C13.9336 7.93437 14.1686 7.75068 14.416 7.3833V2.50057H15.5417Z" fill="#575353"/>
+                  </g>
+                  <defs>
+                    <clipPath id="clip0_281_598">
+                      <rect width="19" height="22.9655" fill="white" transform="translate(0.5 0.309082)"/>
+                    </clipPath>
+                  </defs>
+                </svg>
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link text-light" href="#">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M2.149 0l-1.612 4.119v16.836h5.731v3.045h3.224l3.045-3.045h4.657l6.269-6.269v-14.686h-21.314zm19.164 13.612l-3.582 3.582h-5.731l-3.045 3.045v-3.045h-4.836v-15.045h17.194v11.463zm-3.582-7.343v6.262h-2.149v-6.262h2.149zm-5.731 0v6.262h-2.149v-6.262h2.149z" fill-rule="evenodd" clip-rule="evenodd"/></svg>                </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link text-light" href="#">
+                <svg xmlns="http://www.w3.org/2000/svg" width="27" height="28" viewBox="0 0 27 28" fill="none">
+                  <path d="M1.25366 2.57568H3.95028L20.13 24.926H17.4333L1.25366 2.57568Z" fill="#545454"/>
+                  <path d="M6.10754 2.57574H8.80416L24.9838 24.9261H22.2872L6.10754 2.57574Z" fill="#545454"/>
+                  <path d="M3.41089 2.57574H8.80412V4.81078H3.41089V2.57574Z" fill="#545454"/>
+                  <path d="M17.4333 24.9261H22.8266V22.691H17.4333V24.9261Z" fill="#545454"/>
+                  <path d="M20.1299 2.57574H23.9052L5.56823 24.9261H1.79297L20.1299 2.57574Z" fill="#545454"/>
+                </svg>
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link text-light" href="#">
+                <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 26 26" fill="none">
+                  <path d="M13 17.0568C14.0708 17.0568 15.0978 16.6161 15.855 15.8317C16.6121 15.0472 17.0375 13.9833 17.0375 12.8739C17.0375 11.7645 16.6121 10.7005 15.855 9.91603C15.0978 9.13156 14.0708 8.69086 13 8.69086C11.9292 8.69086 10.9023 9.13156 10.1451 9.91603C9.3879 10.7005 8.96252 11.7645 8.96252 12.8739C8.96252 13.9833 9.3879 15.0472 10.1451 15.8317C10.9023 16.6161 11.9292 17.0568 13 17.0568Z" stroke="#545454" stroke-width="1.51406" stroke-linecap="round" stroke-linejoin="round"/>
+                  <path d="M3.91565 17.0568V8.69084C3.91565 7.30409 4.44737 5.97414 5.39384 4.99356C6.34032 4.01298 7.62401 3.4621 8.96252 3.4621H17.0375C18.376 3.4621 19.6597 4.01298 20.6062 4.99356C21.5527 5.97414 22.0844 7.30409 22.0844 8.69084V17.0568C22.0844 18.4436 21.5527 19.7735 20.6062 20.7541C19.6597 21.7347 18.376 22.2856 17.0375 22.2856H8.96252C7.62401 22.2856 6.34032 21.7347 5.39384 20.7541C4.44737 19.7735 3.91565 18.4436 3.91565 17.0568Z" stroke="#545454" stroke-width="1.51406"/>
+                  <path d="M18.5516 7.13268L18.5621 7.12122" stroke="#545454" stroke-width="1.51406" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+              </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light" href="#">
+              <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none">
+                <path d="M13.8604 13.2833H16.1859L17.1161 9.42838H13.8604V7.50092C13.8604 6.50828 13.8604 5.57346 15.7208 5.57346H17.1161V2.33533C16.8129 2.29389 15.6678 2.20041 14.4585 2.20041C11.933 2.20041 10.1396 3.79731 10.1396 6.72994V9.42838H7.34894V13.2833H10.1396V21.475H13.8604V13.2833Z" fill="#545454"/>
+              </svg>
+            </a>
+        </li>
+        </ul>
+      </article>
+
+    <!--///////////////////////////////////////////////////////////////////////////////////////////
+    INDEX / FOOTER / PLAY
+    ///////////////////////////////////////////////////////////////////////////////////////////
+    -->
+      <article class="play">
+        <h2 class="text-light">Formas de Jugar</h2>
+        <ul class="navbar-nav">
+          <li class="nav-item ">
+              <a class="nav-link " aria-current="page" href="https://magic.wizards.com/en/mtgarena" target="_BLANK">MTG Arena</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="https://www.tabletopsimulator.com/" target="_BLANK">Tabletop Magic</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="https://www.mtgo.com/en/mtgo" target="_BLANK">Magic Online</a>
+          </li>
+      </article>
+
+    <!--///////////////////////////////////////////////////////////////////////////////////////////
+    INDEX / FOOTER / PATROCINIO
+    ///////////////////////////////////////////////////////////////////////////////////////////
+    -->
+      <article class="d-flex align-items-end patrocinio">
+        <picture>
+          <img src="../img/201026_Magic_Competitive_Logo_454x191 1.png" alt="magic-competitive">
+        </picture>
+        <picture>
+          <img src="../img/wizards_logo_119x80 1.png" alt="wizards-logo">
+        </picture>
+        <picture>
+          <img src="../img/mtgo-logo 1.png" alt="magic-online">
+        </picture>
+      </article>
+
+    <!--///////////////////////////////////////////////////////////////////////////////////////////
+    INDEX / FOOTER / LOGO
+    ///////////////////////////////////////////////////////////////////////////////////////////
+    -->
+
+      <article class="footer-logo">
+        <a class="navbar-brand d-flex" href="#">
+          <img class="nav-logo" src="../img/LogoTrue.png" alt="logo">
+          <div class="name-logo">
+            <h1 class="text-light">mistyc</h1>
+            <h3>gathering</h3>
+          </div>
+      </a>
+
+      </article>
+
+    <!--///////////////////////////////////////////////////////////////////////////////////////////
+    INDEX / FOOTER / COPYRIGHT
+    ///////////////////////////////////////////////////////////////////////////////////////////
+    -->
+      <article class="container copyright">
+        <p class="text-light">Todo el contenido original en esta página es © 2012-2023 MistycGathering, Inc. y no puede ser utilizado ni reproducido sin consentimiento. Wizards of the Coast, Magic: The Gathering y sus logotipos son marcas registradas de Wizards of the Coast LLC.
+          © 1995-2023 Wizards. Todos los derechos reservados. MistycGathering, Inc. no está afiliada con Wizards of the Coast LLC.Cuando haces clic en enlaces a varios comerciantes en este sitio y realizas una compra, esto puede resultar en que este sitio obtenga una comisión. Los programas de afiliados y afiliaciones incluyen, pero no se limitan a, la eBay Partner Network, TCGplayer.com, 
+          CardKingdom.com, CardConduit.com, Cardhoarder.com.</p>
+      </article>
+  </footer>
+
+    <!-- Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,55 @@
+@use "sass:map";
+
+.main-index {
+
+    &__aside {
+        @media (width < map.get($break-pontis, "md")) {
+            @include flex;
+        }
+            grid-area: aside;
+            margin: 20px auto ;
+
+            & article {
+
+                font-family: $font-family-tertiary;
+                margin-bottom: 30px;
+                max-width: 18rem;
+                height: 250px;
+                & .header {
+                    @include flex($jc:flex-start);
+                    background-color:$color-success;
+                    & h6 {
+                        color: $color-tertiary;
+                        font-size: 20px;
+                    }
+                }
+                & .header1 {
+                    @include flex($jc:flex-start);
+                    background-color: lighten( $color-success, 40); 
+                    & select {
+                        width: 120px;
+                        background-color: transparent;
+                        color: $color-success;
+                        border: none;
+                        font-size: 14px;
+                        &:focus {
+                        box-shadow: none !important;
+                        }
+                    }
+                    & .form-select {
+                        -webkit-appearance: none;
+                        -moz-appearance: none;
+                        appearance: none;
+                        background-image: url('data:image/svg+xml;charset=utf8,%3Csvg xmlns="http://www.w3.org/2000/svg" width="8" height="8" viewBox="0 0 8 8" fill="none"%3E%3Cpath d="M3.7261 6.52296C3.75668 6.56737 3.7976 6.60369 3.84533 6.62878C3.89306 6.65386 3.94618 6.66697 4.0001 6.66697C4.05402 6.66697 4.10714 6.65386 4.15487 6.62878C4.2026 6.60369 4.24352 6.56737 4.2741 6.52296L7.2741 2.18963C7.30883 2.13965 7.32919 2.0811 7.33298 2.02036C7.33677 1.95962 7.32384 1.899 7.2956 1.84509C7.26735 1.79118 7.22488 1.74604 7.17278 1.71458C7.12068 1.68312 7.06096 1.66653 7.0001 1.66663H1.0001C0.939382 1.66688 0.87988 1.68368 0.827995 1.71521C0.776109 1.74675 0.733802 1.79184 0.705624 1.84562C0.677446 1.89941 0.664463 1.95986 0.668071 2.02047C0.671679 2.08108 0.691741 2.13956 0.726101 2.18963L3.7261 6.52296Z" fill="%234ECB71"%3E%3C/path%3E%3C/svg%3E'); /* Agrega el código SVG codificado en base64 aquí */
+                        background-position: right center;
+                        background-repeat: no-repeat;
+
+                    }
+                }
+
+            }
+    
+        
+    
+    }
+}

@@ -1,0 +1,133 @@
+@use "sass:map";
+
+.cartas-populares {
+    grid-area: section1;
+    margin-top: 20px;
+    @include flex; 
+
+
+
+
+    &__header{
+        @include flex($jc:space-between);
+        height: 40px;
+        width: 100%;
+        background-color:#545454 ;
+
+        & .custom-arrow{
+            width: 100px;
+            margin-right: 20px;
+            &__prev {
+                width: 60px;
+            }
+        }
+    }
+
+    &__body {
+        @include flex;
+        & .carousel-item {
+            &__carta {
+                @include flex ($df:inline-block);
+                padding: 0 20px;  
+                flex-direction: column;
+                height: 100%;
+                margin: 10px auto;
+                
+                & img {
+                    width: 140px;
+                    height: 210px;
+                }
+        
+                & .custom-info {
+                    margin: 10px auto;
+                    gap: 2px;
+                    & .span-success {
+                        background-color:#E8F5E9 ;
+                        color: #4DB559;
+                    }
+                    
+                    & .span-danger {
+                        background-color:#FFC3C3 ;
+                        color: #F54646;
+                    }
+                    & .compra {
+                        background-color: #E1C9F8;
+                        padding: 2px;
+                    }
+        
+                    & span {
+                        font-weight: bold;
+                        font-size: 8px;
+                        padding: 8px;
+                        
+                    }
+                    
+                    & .input-cart {
+                        width: 25px;
+                        font-size: 8px;
+                        background: transparent;
+                        border: 1px solid #6E419A;
+        
+                        &::placeholder {
+                            font-weight: bold;
+                        }
+                    }
+                    
+                }
+            }
+
+        }
+        }
+
+
+    @media (width < map.get($break-pontis, "md")) {
+        width: 370px;
+        justify-self: center;
+
+        &__body {
+            @include flex;
+            & .carousel-item {
+                &__carta {
+                    &:nth-last-child(-n+3) {
+                        display: none;
+                    }
+                    &:first-child {
+                        justify-content: center;
+                        & img {
+                            width: 250px;
+                            height: 350px;
+                        }
+                    }
+            
+                    & .custom-info {
+                        gap: 6px;
+                        
+                        & .compra {
+                            padding: 5px;
+                        }
+            
+                        & span {
+                            font-size: 18px;
+                            padding: 8px;
+                            
+                        }
+                        
+                        & .input-cart {
+                            width: 35px;
+                            height: 25px;
+                            font-size: 8px;
+                        }
+                        
+                    }
+                }
+    
+            }
+            }
+    
+        
+    }
+
+}
+
+
+
