@@ -1,19 +1,25 @@
+#Tienda de Alimento para Mascotas
+Bienvenido a la Tienda de Alimento para Mascotas, donde encontrarás una amplia selección de productos de alta calidad para satisfacer las necesidades alimenticias de tus mascotas.
 
-# coderhouse
+Descripción
+Esta página web fue creada con el propósito de ofrecer a los dueños de mascotas una plataforma conveniente para comprar alimentos de calidad para sus animales. Nuestra tienda se esfuerza por brindar una experiencia de compra fácil y agradable.
 
-He incluido en el proyecto CSS Nesting, lo cual me pareció espectacular para mejorar la eficiencia de trabajo en CSS. Estoy empezando a experimentar con la herramienta y entiendo que aún se pueden hacer muchas más cosas.
+Características principales
+Catálogo extenso: Explora nuestro catálogo diverso que incluye alimentos para perros, gatos.
+Marcas que trabajamos: Conoce las diversas marcas que trabajamos.
+Proceso de compra simple: Realiza tus compras de manera rápida y segura con nuestro proceso de pago sencillo.
+Cómo usar
+Visita https://candelacesarin.github.io/Tiendaalimentomascotas/
+Explora el catálogo y selecciona los productos que deseas comprar.
+Agrega los productos al carrito de compras.
+Procede al proceso de pago y completa tu compra.
+Contribuir
+¡Agradecemos las contribuciones! Si encuentras algún problema o tienes sugerencias de mejora, no dudes en abrir un problema o enviar una solicitud de extracción.
 
-En el contexto del proyecto que estoy haciendo, se podría aprovechar CSS Nesting para crear componentes en relación a los estilos. Todavía no lo he hecho tal cual lo pienso, pero lo voy a intentar, ya que en este proyecto hay varios elementos que se reutilizan en las páginas.
-
-Como observación al respecto, tanto el NAV como el FOOTER se repiten en todas las páginas y en la sección de ESTILOS los he puesto dentro de los estilos del INDEX, aunque los podría poner como COMPONENTES en las páginas de estilos, todo esto a modo organizativo.
-
-Hago esta aclaración porque no sé si está correcto lo que estoy pensando o no.
-
-
-El sitio todavía no está RESPONSIVO.
-
-El sitio todavía no está RESPONSIVO.
-
-Tambien soy consiente que la forma que aplique GRID en todo el site no esta de la forma mas eficiente ya que esta aplicado a todas las paginas el grid que eh hecho para la index. eso lo voy a cambiar en breve.
-
+Tecnologías utilizadas
+HTML5
+CSS3
+JavaScript
+Autor
+Candela Cesarin https://github.com/candelacesarin
 

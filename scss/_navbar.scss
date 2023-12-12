@@ -44,11 +44,11 @@
                 width: 480px;
                 border-radius: 10px;
                 @media (width < map.get($break-pontis, "sm")) {
-                    width: 460px;
+                    width: 430px;
                     height: 30px;
                 }
                 @media (width < map.get($break-pontis, "xs")) {
-                    width: 300px;
+                    width: 250px;
                 }
             }
             & .search-btn {

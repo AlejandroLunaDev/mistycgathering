@@ -135,13 +135,13 @@
 }
 @media (width < 760px) {
   .nav form .search-input-container .busqueda {
-    width: 460px;
+    width: 430px;
     height: 30px;
   }
 }
 @media (width < 595px) {
   .nav form .search-input-container .busqueda {
-    width: 300px;
+    width: 250px;
   }
 }
 .nav form .search-input-container .search-btn {
