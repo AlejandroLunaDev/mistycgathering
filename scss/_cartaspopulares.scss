@@ -5,9 +5,6 @@
     margin-top: 20px;
     @include flex; 
 
-
-
-
     &__header{
         @include flex($jc:space-between);
         height: 40px;

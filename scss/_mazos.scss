@@ -1,0 +1,89 @@
+.mazos {
+
+    &__subNav {
+        margin-top: 20px;
+        text-transform: capitalize;
+        
+        & a{
+            color: $color-secondary;
+            font-size: 18px;
+
+            &:hover {
+                color: $color-primary;
+            }
+        }
+    }
+
+    &__section {
+        margin-bottom: 70px;
+        & .header {
+                margin-bottom: 20px;
+                & .header__select {
+                    @include flex ($fw:nowrap,$jc:flex-start);
+                    height: 40px;
+                    & select {
+                        width: 170px;
+                        height: 35px;
+                        margin-left: 20px;
+                        border: none;
+                        background-color: $color-tertiary;
+                    }
+                    
+                    & .form-select {
+                        -webkit-appearance: none;
+                        -moz-appearance: none;
+                        appearance: none;
+                        background-image: url('data:image/svg+xml;charset=utf8,%3Csvg xmlns="http://www.w3.org/2000/svg" width="11" height="8" viewBox="0 0 11 8" fill="none"%3E%3Cpath d="M4.7221 6.25602C4.76085 6.29862 4.81271 6.33344 4.8732 6.3575C4.93369 6.38156 5.00101 6.39413 5.06934 6.39413C5.13768 6.39413 5.205 6.38156 5.26549 6.3575C5.32598 6.33344 5.37784 6.29862 5.41659 6.25602L9.21857 2.10021C9.26258 2.05227 9.28839 1.99613 9.29319 1.93788C9.29799 1.87962 9.28161 1.82149 9.24581 1.76979C9.21002 1.71809 9.15619 1.6748 9.09016 1.64462C9.02414 1.61445 8.94845 1.59854 8.87132 1.59863H1.26736C1.19041 1.59887 1.11501 1.61498 1.04925 1.64523C0.983493 1.67548 0.929876 1.71872 0.894165 1.7703C0.858455 1.82188 0.842001 1.87985 0.846573 1.93798C0.851146 1.99611 0.876572 2.0522 0.920116 2.10021L4.7221 6.25602Z" fill="black"%3E%3C/path%3E%3C/svg%3E');
+                        background-position: right center;
+                        background-repeat: no-repeat;
+                    }
+                    
+                }
+            }
+        & article {
+            
+            & .card-body {
+                & h5 {
+                    font-size: 25px;
+                    color: $color-primary;
+                    text-transform: capitalize;
+                    margin-left: 6px;
+                }
+                & img {
+                    height: 30px;
+                }
+                & ul {
+                    list-style: none;
+                    text-transform: capitalize;
+                    margin-left: 6px;
+                    & li {
+                        font-size: 14px;
+                    }
+                }
+            }
+            & .custom-line {
+                margin: 10px auto;
+                width: 100%;
+                height: 2px;
+                background-color: #DB7E1E;
+            }
+    
+            & p {
+                font-size: 10px;
+            }
+            & .card__footer {
+                @include flex($jc:space-between);
+                
+            }
+    
+            & .custom-price {
+                background-color: #545454;
+                height: 50%;
+                padding: 5px;
+                margin-bottom: 10px;
+            }
+
+        }
+
+    }
+}

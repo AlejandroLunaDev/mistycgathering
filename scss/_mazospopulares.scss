@@ -30,9 +30,8 @@
 
         & article {
             & h5  {
-                color: #DB7E1E ;
+                color:$color-primary ;
                 text-transform: capitalize;
-                font-family: 'Playfair Display', serif;
             }
             & .custom-price {
                 background-color: #545454;

@@ -44,7 +44,6 @@
             }
             & a {
                 padding: 0;
-                font-family: $font-family-tertiary;
                 color:$color-primary;
                 font-size: 18px;
                 display: inline-block;
@@ -72,7 +71,6 @@
             }
     
             & .name-logo {
-                font-family:$font-family-primary;
                 text-transform: capitalize;
                 margin-top: 40px;
                 & h1, h3 {
@@ -88,13 +86,9 @@
     
 
     }
-    & h2 {
-        font-family:$font-family-scondary;
-    }
 
     & .copyright {
         & p {
-            font-family:$font-family-tertiary;
             font-size: 12px;
         }
     }

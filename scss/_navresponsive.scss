@@ -1,11 +1,28 @@
-
+@use "sass:map";
 
 
 .nav-responsive {
-    background-color:$color-secondary ;
-
+    background-color:$color-secondary;
+    display: none;
 
     &__userlogo {
-        height: 50px;
+        height: 70px;
+    }
+
+    &__canvas {
+        background-color:$color-secondary;
+
+        & img {
+            height: 80px;
+        }
+
+        & a {
+            font-size: 30px;
+            text-transform: capitalize;
+        }
+    }
+
+    @media (width < map.get($break-pontis, "md")) {
+        display: block;
     }
 }

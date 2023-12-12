@@ -1,7 +1,8 @@
 @use "sass:map";
 
 //////// GENERAL ////////  
-.container-grid {   
+.container-grid { 
+    background-color: $color-body;  
     max-width: 2440px;
     display: grid;
     grid-template-columns: 1fr;
@@ -21,6 +22,8 @@
     & footer {
             grid-area: footer;
         }
+
+
 
     //////// INDEX ////////  
     & .main-index {
@@ -91,6 +94,23 @@
     
         & .aside-index {
             grid-area: aside;
+        }
+    }
+
+    //////// MAZOS ////////
+    & .mazos {
+        &__main {
+            display: grid;
+            grid-template-columns: repeat(5, 1fr);
+            gap: 15px;
+
+            @media (width < map.get($break-pontis, "md")) {
+                grid-template-columns: repeat(3, 1fr);
+            }
+            @media (width < map.get($break-pontis, "sm")) {
+                grid-template-columns: repeat(2, 1fr);
+            }
+    
         }
     }
 }

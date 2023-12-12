@@ -1,0 +1,47 @@
+@use "sass:map";
+.section-bazar {
+    margin-bottom: 40px;
+    
+    & .cartas-populares {
+    
+        @media (width < map.get($break-pontis, "md")) {
+    
+            &__body {
+                @include flex;
+                & .carousel-item {
+                    &__carta {
+                        &:nth-last-child(-n+3) {
+                            display: none;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.bazar-hero {
+
+    & h1 {
+        font-size: 25px;
+    }
+
+    & p {
+        font-size: 20px;
+    }
+
+    & a {
+        text-decoration: none;
+        background-color:$color-primary ;
+        color: $color-tertiary;
+        padding: 10px;
+        border-radius: 10px;
+        text-transform: uppercase;
+        font-size: 15px;
+        margin-top: 2rem;
+        letter-spacing: 2px;
+    }
+
+
+}
+

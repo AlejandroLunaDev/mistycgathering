@@ -1,0 +1,14 @@
+.container-grid {
+
+    h1,h2 {
+        font-family:$font-family-primary;
+    }
+
+    h3,h4,h5,a {
+        font-family: $font-family-scondary;
+    }
+
+    h6,p,small {
+        font-family: $font-family-tertiary;
+    }
+}

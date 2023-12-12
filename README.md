@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # coderhouse
 
 He incluido en el proyecto CSS Nesting, lo cual me pareció espectacular para mejorar la eficiencia de trabajo en CSS. Estoy empezando a experimentar con la herramienta y entiendo que aún se pueden hacer muchas más cosas.
@@ -16,6 +16,4 @@ El sitio todavía no está RESPONSIVO.
 
 Tambien soy consiente que la forma que aplique GRID en todo el site no esta de la forma mas eficiente ya que esta aplicado a todas las paginas el grid que eh hecho para la index. eso lo voy a cambiar en breve.
 
-=======
-# mistycgathering
->>>>>>> e00e14f65026eb03f6f050db564bd2e6cd4d87ca
+
