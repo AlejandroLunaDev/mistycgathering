@@ -47,7 +47,7 @@
                     <a class="nav-link text-light"  href="mazos.html">mazos</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link text-light" href="#">ediciones</a>
+                    <a class="nav-link text-light" href="./ediciones.html">ediciones</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link text-light" href="bazar.html">bazar</a>
@@ -96,7 +96,9 @@
         <div class="offcanvas offcanvas-start nav-responsive__canvas" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
           <div class="offcanvas-header">
             <div class="offcanvas-title" id="offcanvasNavbarLabel">
-              <img class="nav-logo" src="./img/logoMG.png" alt="">
+              <a href="../index.html">
+                <img class="nav-logo" src="../img/logoMG.png" alt="logo">
+              </a>
             </div>
             <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
           </div>
@@ -106,7 +108,7 @@
                 <a class="nav-link text-light" aria-current="page" href="./mazos.html">mazos</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link text-light" href="#">ediciones</a>
+                <a class="nav-link text-light" href="./ediciones.html">ediciones</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link text-light" href="./bazar.html">bazar</a>
@@ -120,7 +122,7 @@
       </div>
     </nav>
 </header>
-  <main>
+  <main class="bazar-main">
 
     <!--///////////////////////////////////////////////////////////////////////////////////////////
     BAZAR / MAIN / HERO
@@ -191,7 +193,7 @@
                       </div>
                     </div>                        
           </article>
-          <article class="carousel-item__carta ">
+          <article class="carousel-item__carta last ">
             <div class="d-flex flex-column align-items-center">
               <a href="#" class="text-decoration-none text-light">
                   <picture>
@@ -213,7 +215,7 @@
                 </div>
               </div>                        
           </article>
-          <article class="carousel-item__carta ">
+          <article class="carousel-item__carta last ">
             <div class="d-flex flex-column align-items-center">
               <a href="#" class="text-decoration-none text-light">
                   <picture>
@@ -324,118 +326,118 @@
                 </a>
                 </div>
               </div>                        
-    </article>
-    <article class="carousel-item__carta ">
-      <div class="d-flex flex-column align-items-center">
-        <a href="#" class="text-decoration-none text-light">
-            <picture>
-              <img src="../img/Squadron-Hawk.jpg"  alt="imagen">
-            </picture>
-        </a>
-        <small>89 copias</small>
-      </div>
-        <div class=" d-flex custom-info">
-        <span class="span-success rounded">$20.50</span>
-        <span class="span-danger rounded">$12.20</span>
-          <div class=" d-flex compra align-items-center rounded">
-          <input type="number" name="cant" id="cant" min="0" class="input-cart" placeholder="1">
-          <a href="#" class="ms-1">
-              <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 39 39" fill="none">
-                <path d="M8.625 34.75C8.625 35.6783 8.99375 36.5685 9.65013 37.2249C10.3065 37.8813 11.1967 38.25 12.125 38.25C13.0533 38.25 13.9435 37.8813 14.5999 37.2249C15.2563 36.5685 15.625 35.6783 15.625 34.75M20.875 34.75C20.875 35.6783 21.2437 36.5685 21.9001 37.2249C22.5565 37.8813 23.4467 38.25 24.375 38.25C25.3033 38.25 26.1935 37.8813 26.8499 37.2249C27.5063 36.5685 27.875 35.6783 27.875 34.75M11.25 11.125H38.375V11.5625L37.9567 12.0577C33.7055 17.1065 31.3745 23.4948 31.375 30.095V30.375H8.625V27.085C8.625 23.445 8.5095 19.8085 7.9495 16.214C6.98 9.991 4.83975 0.625 0.75 0.625" stroke="#6E419A"/>
-              </svg>
-          </a>
-          </div>
-        </div>                        
-    </article>
-    <article class="carousel-item__carta ">
-      <div class="d-flex flex-column align-items-center">
-        <a href="#" class="text-decoration-none text-light">
-            <picture>
-              <img src="../img/Tolarian-Terror-DMU-265.jpg"  alt="imagen">
-            </picture>
-        </a>
-        <small>89 copias</small>
-      </div>
-        <div class=" d-flex custom-info">
-        <span class="span-success rounded">$20.50</span>
-        <span class="span-danger rounded">$12.20</span>
-          <div class=" d-flex compra align-items-center rounded">
-          <input type="number" name="cant" id="cant" min="0" class="input-cart" placeholder="1">
-          <a href="#" class="ms-1">
-              <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 39 39" fill="none">
-                <path d="M8.625 34.75C8.625 35.6783 8.99375 36.5685 9.65013 37.2249C10.3065 37.8813 11.1967 38.25 12.125 38.25C13.0533 38.25 13.9435 37.8813 14.5999 37.2249C15.2563 36.5685 15.625 35.6783 15.625 34.75M20.875 34.75C20.875 35.6783 21.2437 36.5685 21.9001 37.2249C22.5565 37.8813 23.4467 38.25 24.375 38.25C25.3033 38.25 26.1935 37.8813 26.8499 37.2249C27.5063 36.5685 27.875 35.6783 27.875 34.75M11.25 11.125H38.375V11.5625L37.9567 12.0577C33.7055 17.1065 31.3745 23.4948 31.375 30.095V30.375H8.625V27.085C8.625 23.445 8.5095 19.8085 7.9495 16.214C6.98 9.991 4.83975 0.625 0.75 0.625" stroke="#6E419A"/>
-              </svg>
-          </a>
-          </div>
-        </div>                        
-    </article>
-    <article class="carousel-item__carta">
-      <div class="d-flex flex-column align-items-center">
-        <a href="#" class="text-decoration-none text-light">
-            <picture>
-              <img src="../img/Delver-of-Secrets.jpg"  alt="imagen">
-            </picture>
-        </a>
-        <small>89 copias</small>
-      </div>
-        <div class=" d-flex custom-info">
-        <span class="span-success rounded">$20.50</span>
-        <span class="span-danger rounded">$12.20</span>
-          <div class=" d-flex compra align-items-center rounded">
-          <input type="number" name="cant" id="cant" min="0" class="input-cart" placeholder="1">
-          <a href="#" class="ms-1">
-              <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 39 39" fill="none">
-                <path d="M8.625 34.75C8.625 35.6783 8.99375 36.5685 9.65013 37.2249C10.3065 37.8813 11.1967 38.25 12.125 38.25C13.0533 38.25 13.9435 37.8813 14.5999 37.2249C15.2563 36.5685 15.625 35.6783 15.625 34.75M20.875 34.75C20.875 35.6783 21.2437 36.5685 21.9001 37.2249C22.5565 37.8813 23.4467 38.25 24.375 38.25C25.3033 38.25 26.1935 37.8813 26.8499 37.2249C27.5063 36.5685 27.875 35.6783 27.875 34.75M11.25 11.125H38.375V11.5625L37.9567 12.0577C33.7055 17.1065 31.3745 23.4948 31.375 30.095V30.375H8.625V27.085C8.625 23.445 8.5095 19.8085 7.9495 16.214C6.98 9.991 4.83975 0.625 0.75 0.625" stroke="#6E419A"/>
-              </svg>
-          </a>
-          </div>
-        </div>                        
-    </article>
-    <article class="carousel-item__carta">
-      <div class="d-flex flex-column align-items-center">
-        <a href="#" class="text-decoration-none text-light">
-            <picture>
-              <img src="../img/Burn.jpg"  alt="imagen">
-            </picture>
-        </a>
-        <small>89 copias</small>
-      </div>
-        <div class=" d-flex custom-info">
-        <span class="span-success rounded">$20.50</span>
-        <span class="span-danger rounded">$12.20</span>
-          <div class=" d-flex compra align-items-center rounded">
-          <input type="number" name="cant" id="cant" min="0" class="input-cart" placeholder="1">
-          <a href="#" class="ms-1">
-              <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 39 39" fill="none">
-                <path d="M8.625 34.75C8.625 35.6783 8.99375 36.5685 9.65013 37.2249C10.3065 37.8813 11.1967 38.25 12.125 38.25C13.0533 38.25 13.9435 37.8813 14.5999 37.2249C15.2563 36.5685 15.625 35.6783 15.625 34.75M20.875 34.75C20.875 35.6783 21.2437 36.5685 21.9001 37.2249C22.5565 37.8813 23.4467 38.25 24.375 38.25C25.3033 38.25 26.1935 37.8813 26.8499 37.2249C27.5063 36.5685 27.875 35.6783 27.875 34.75M11.25 11.125H38.375V11.5625L37.9567 12.0577C33.7055 17.1065 31.3745 23.4948 31.375 30.095V30.375H8.625V27.085C8.625 23.445 8.5095 19.8085 7.9495 16.214C6.98 9.991 4.83975 0.625 0.75 0.625" stroke="#6E419A"/>
-              </svg>
-          </a>
-          </div>
-        </div>                        
-    </article>
-    <article class="carousel-item__carta">
-      <div class="d-flex flex-column align-items-center">
-        <a href="#" class="text-decoration-none text-light">
-            <picture>
-              <img src="../img/Squadron-Hawk.jpg"  alt="imagen">
-            </picture>
-        </a>
-        <small>89 copias</small>
-      </div>
-        <div class=" d-flex custom-info">
-        <span class="span-success rounded">$20.50</span>
-        <span class="span-danger rounded">$12.20</span>
-          <div class=" d-flex compra align-items-center rounded">
-          <input type="number" name="cant" id="cant" min="0" class="input-cart" placeholder="1">
-          <a href="#" class="ms-1">
-              <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 39 39" fill="none">
-                <path d="M8.625 34.75C8.625 35.6783 8.99375 36.5685 9.65013 37.2249C10.3065 37.8813 11.1967 38.25 12.125 38.25C13.0533 38.25 13.9435 37.8813 14.5999 37.2249C15.2563 36.5685 15.625 35.6783 15.625 34.75M20.875 34.75C20.875 35.6783 21.2437 36.5685 21.9001 37.2249C22.5565 37.8813 23.4467 38.25 24.375 38.25C25.3033 38.25 26.1935 37.8813 26.8499 37.2249C27.5063 36.5685 27.875 35.6783 27.875 34.75M11.25 11.125H38.375V11.5625L37.9567 12.0577C33.7055 17.1065 31.3745 23.4948 31.375 30.095V30.375H8.625V27.085C8.625 23.445 8.5095 19.8085 7.9495 16.214C6.98 9.991 4.83975 0.625 0.75 0.625" stroke="#6E419A"/>
-              </svg>
-          </a>
-          </div>
-        </div>                        
-    </article>
-'     </div>
+          </article>
+          <article class="carousel-item__carta last ">
+            <div class="d-flex flex-column align-items-center">
+              <a href="#" class="text-decoration-none text-light">
+                  <picture>
+                    <img src="../img/Squadron-Hawk.jpg"  alt="imagen">
+                  </picture>
+              </a>
+              <small>89 copias</small>
+            </div>
+              <div class=" d-flex custom-info">
+              <span class="span-success rounded">$20.50</span>
+              <span class="span-danger rounded">$12.20</span>
+                <div class=" d-flex compra align-items-center rounded">
+                <input type="number" name="cant" id="cant" min="0" class="input-cart" placeholder="1">
+                <a href="#" class="ms-1">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 39 39" fill="none">
+                      <path d="M8.625 34.75C8.625 35.6783 8.99375 36.5685 9.65013 37.2249C10.3065 37.8813 11.1967 38.25 12.125 38.25C13.0533 38.25 13.9435 37.8813 14.5999 37.2249C15.2563 36.5685 15.625 35.6783 15.625 34.75M20.875 34.75C20.875 35.6783 21.2437 36.5685 21.9001 37.2249C22.5565 37.8813 23.4467 38.25 24.375 38.25C25.3033 38.25 26.1935 37.8813 26.8499 37.2249C27.5063 36.5685 27.875 35.6783 27.875 34.75M11.25 11.125H38.375V11.5625L37.9567 12.0577C33.7055 17.1065 31.3745 23.4948 31.375 30.095V30.375H8.625V27.085C8.625 23.445 8.5095 19.8085 7.9495 16.214C6.98 9.991 4.83975 0.625 0.75 0.625" stroke="#6E419A"/>
+                    </svg>
+                </a>
+                </div>
+              </div>                        
+          </article>
+          <article class="carousel-item__carta last ">
+            <div class="d-flex flex-column align-items-center">
+              <a href="#" class="text-decoration-none text-light">
+                  <picture>
+                    <img src="../img/Tolarian-Terror-DMU-265.jpg"  alt="imagen">
+                  </picture>
+              </a>
+              <small>89 copias</small>
+            </div>
+              <div class=" d-flex custom-info">
+              <span class="span-success rounded">$20.50</span>
+              <span class="span-danger rounded">$12.20</span>
+                <div class=" d-flex compra align-items-center rounded">
+                <input type="number" name="cant" id="cant" min="0" class="input-cart" placeholder="1">
+                <a href="#" class="ms-1">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 39 39" fill="none">
+                      <path d="M8.625 34.75C8.625 35.6783 8.99375 36.5685 9.65013 37.2249C10.3065 37.8813 11.1967 38.25 12.125 38.25C13.0533 38.25 13.9435 37.8813 14.5999 37.2249C15.2563 36.5685 15.625 35.6783 15.625 34.75M20.875 34.75C20.875 35.6783 21.2437 36.5685 21.9001 37.2249C22.5565 37.8813 23.4467 38.25 24.375 38.25C25.3033 38.25 26.1935 37.8813 26.8499 37.2249C27.5063 36.5685 27.875 35.6783 27.875 34.75M11.25 11.125H38.375V11.5625L37.9567 12.0577C33.7055 17.1065 31.3745 23.4948 31.375 30.095V30.375H8.625V27.085C8.625 23.445 8.5095 19.8085 7.9495 16.214C6.98 9.991 4.83975 0.625 0.75 0.625" stroke="#6E419A"/>
+                    </svg>
+                </a>
+                </div>
+              </div>                        
+          </article>
+          <article class="carousel-item__carta">
+            <div class="d-flex flex-column align-items-center">
+              <a href="#" class="text-decoration-none text-light">
+                  <picture>
+                    <img src="../img/Delver-of-Secrets.jpg"  alt="imagen">
+                  </picture>
+              </a>
+              <small>89 copias</small>
+            </div>
+              <div class=" d-flex custom-info">
+              <span class="span-success rounded">$20.50</span>
+              <span class="span-danger rounded">$12.20</span>
+                <div class=" d-flex compra align-items-center rounded">
+                <input type="number" name="cant" id="cant" min="0" class="input-cart" placeholder="1">
+                <a href="#" class="ms-1">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 39 39" fill="none">
+                      <path d="M8.625 34.75C8.625 35.6783 8.99375 36.5685 9.65013 37.2249C10.3065 37.8813 11.1967 38.25 12.125 38.25C13.0533 38.25 13.9435 37.8813 14.5999 37.2249C15.2563 36.5685 15.625 35.6783 15.625 34.75M20.875 34.75C20.875 35.6783 21.2437 36.5685 21.9001 37.2249C22.5565 37.8813 23.4467 38.25 24.375 38.25C25.3033 38.25 26.1935 37.8813 26.8499 37.2249C27.5063 36.5685 27.875 35.6783 27.875 34.75M11.25 11.125H38.375V11.5625L37.9567 12.0577C33.7055 17.1065 31.3745 23.4948 31.375 30.095V30.375H8.625V27.085C8.625 23.445 8.5095 19.8085 7.9495 16.214C6.98 9.991 4.83975 0.625 0.75 0.625" stroke="#6E419A"/>
+                    </svg>
+                </a>
+                </div>
+              </div>                        
+          </article>
+          <article class="carousel-item__carta">
+            <div class="d-flex flex-column align-items-center">
+              <a href="#" class="text-decoration-none text-light">
+                  <picture>
+                    <img src="../img/Burn.jpg"  alt="imagen">
+                  </picture>
+              </a>
+              <small>89 copias</small>
+            </div>
+              <div class=" d-flex custom-info">
+              <span class="span-success rounded">$20.50</span>
+              <span class="span-danger rounded">$12.20</span>
+                <div class=" d-flex compra align-items-center rounded">
+                <input type="number" name="cant" id="cant" min="0" class="input-cart" placeholder="1">
+                <a href="#" class="ms-1">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 39 39" fill="none">
+                      <path d="M8.625 34.75C8.625 35.6783 8.99375 36.5685 9.65013 37.2249C10.3065 37.8813 11.1967 38.25 12.125 38.25C13.0533 38.25 13.9435 37.8813 14.5999 37.2249C15.2563 36.5685 15.625 35.6783 15.625 34.75M20.875 34.75C20.875 35.6783 21.2437 36.5685 21.9001 37.2249C22.5565 37.8813 23.4467 38.25 24.375 38.25C25.3033 38.25 26.1935 37.8813 26.8499 37.2249C27.5063 36.5685 27.875 35.6783 27.875 34.75M11.25 11.125H38.375V11.5625L37.9567 12.0577C33.7055 17.1065 31.3745 23.4948 31.375 30.095V30.375H8.625V27.085C8.625 23.445 8.5095 19.8085 7.9495 16.214C6.98 9.991 4.83975 0.625 0.75 0.625" stroke="#6E419A"/>
+                    </svg>
+                </a>
+                </div>
+              </div>                        
+          </article>
+          <article class="carousel-item__carta">
+            <div class="d-flex flex-column align-items-center">
+              <a href="#" class="text-decoration-none text-light">
+                  <picture>
+                    <img src="../img/Squadron-Hawk.jpg"  alt="imagen">
+                  </picture>
+              </a>
+              <small>89 copias</small>
+            </div>
+              <div class=" d-flex custom-info">
+              <span class="span-success rounded">$20.50</span>
+              <span class="span-danger rounded">$12.20</span>
+                <div class=" d-flex compra align-items-center rounded">
+                <input type="number" name="cant" id="cant" min="0" class="input-cart" placeholder="1">
+                <a href="#" class="ms-1">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 39 39" fill="none">
+                      <path d="M8.625 34.75C8.625 35.6783 8.99375 36.5685 9.65013 37.2249C10.3065 37.8813 11.1967 38.25 12.125 38.25C13.0533 38.25 13.9435 37.8813 14.5999 37.2249C15.2563 36.5685 15.625 35.6783 15.625 34.75M20.875 34.75C20.875 35.6783 21.2437 36.5685 21.9001 37.2249C22.5565 37.8813 23.4467 38.25 24.375 38.25C25.3033 38.25 26.1935 37.8813 26.8499 37.2249C27.5063 36.5685 27.875 35.6783 27.875 34.75M11.25 11.125H38.375V11.5625L37.9567 12.0577C33.7055 17.1065 31.3745 23.4948 31.375 30.095V30.375H8.625V27.085C8.625 23.445 8.5095 19.8085 7.9495 16.214C6.98 9.991 4.83975 0.625 0.75 0.625" stroke="#6E419A"/>
+                    </svg>
+                </a>
+                </div>
+              </div>                        
+          </article>
+'       </div>
         <div class="carousel-item">
           <article class="carousel-item__carta ">
             <div class="d-flex flex-column align-items-center">
@@ -458,120 +460,119 @@
                 </a>
                 </div>
               </div>                        
-    </article>
-    <article class="carousel-item__carta ">
-      <div class="d-flex flex-column align-items-center">
-        <a href="#" class="text-decoration-none text-light">
-            <picture>
-              <img src="../img/Squadron-Hawk.jpg"  alt="imagen">
-            </picture>
-        </a>
-        <small>89 copias</small>
-      </div>
-        <div class=" d-flex custom-info">
-        <span class="span-success rounded">$20.50</span>
-        <span class="span-danger rounded">$12.20</span>
-          <div class=" d-flex compra align-items-center rounded">
-          <input type="number" name="cant" id="cant" min="0" class="input-cart" placeholder="1">
-          <a href="#" class="ms-1">
-              <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 39 39" fill="none">
-                <path d="M8.625 34.75C8.625 35.6783 8.99375 36.5685 9.65013 37.2249C10.3065 37.8813 11.1967 38.25 12.125 38.25C13.0533 38.25 13.9435 37.8813 14.5999 37.2249C15.2563 36.5685 15.625 35.6783 15.625 34.75M20.875 34.75C20.875 35.6783 21.2437 36.5685 21.9001 37.2249C22.5565 37.8813 23.4467 38.25 24.375 38.25C25.3033 38.25 26.1935 37.8813 26.8499 37.2249C27.5063 36.5685 27.875 35.6783 27.875 34.75M11.25 11.125H38.375V11.5625L37.9567 12.0577C33.7055 17.1065 31.3745 23.4948 31.375 30.095V30.375H8.625V27.085C8.625 23.445 8.5095 19.8085 7.9495 16.214C6.98 9.991 4.83975 0.625 0.75 0.625" stroke="#6E419A"/>
-              </svg>
-          </a>
-          </div>
-        </div>                        
-    </article>
-    <article class="carousel-item__carta ">
-      <div class="d-flex flex-column align-items-center">
-        <a href="#" class="text-decoration-none text-light">
-            <picture>
-              <img src="../img/Tolarian-Terror-DMU-265.jpg"  alt="imagen">
-            </picture>
-        </a>
-        <small>89 copias</small>
-      </div>
-        <div class=" d-flex custom-info">
-        <span class="span-success rounded">$20.50</span>
-        <span class="span-danger rounded">$12.20</span>
-          <div class=" d-flex compra align-items-center rounded">
-          <input type="number" name="cant" id="cant" min="0" class="input-cart" placeholder="1">
-          <a href="#" class="ms-1">
-              <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 39 39" fill="none">
-                <path d="M8.625 34.75C8.625 35.6783 8.99375 36.5685 9.65013 37.2249C10.3065 37.8813 11.1967 38.25 12.125 38.25C13.0533 38.25 13.9435 37.8813 14.5999 37.2249C15.2563 36.5685 15.625 35.6783 15.625 34.75M20.875 34.75C20.875 35.6783 21.2437 36.5685 21.9001 37.2249C22.5565 37.8813 23.4467 38.25 24.375 38.25C25.3033 38.25 26.1935 37.8813 26.8499 37.2249C27.5063 36.5685 27.875 35.6783 27.875 34.75M11.25 11.125H38.375V11.5625L37.9567 12.0577C33.7055 17.1065 31.3745 23.4948 31.375 30.095V30.375H8.625V27.085C8.625 23.445 8.5095 19.8085 7.9495 16.214C6.98 9.991 4.83975 0.625 0.75 0.625" stroke="#6E419A"/>
-              </svg>
-          </a>
-          </div>
-        </div>                        
-    </article>
-    <article class="carousel-item__carta">
-      <div class="d-flex flex-column align-items-center">
-        <a href="#" class="text-decoration-none text-light">
-            <picture>
-              <img src="../img/Delver-of-Secrets.jpg"  alt="imagen">
-            </picture>
-        </a>
-        <small>89 copias</small>
-      </div>
-        <div class=" d-flex custom-info">
-        <span class="span-success rounded">$20.50</span>
-        <span class="span-danger rounded">$12.20</span>
-          <div class=" d-flex compra align-items-center rounded">
-          <input type="number" name="cant" id="cant" min="0" class="input-cart" placeholder="1">
-          <a href="#" class="ms-1">
-              <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 39 39" fill="none">
-                <path d="M8.625 34.75C8.625 35.6783 8.99375 36.5685 9.65013 37.2249C10.3065 37.8813 11.1967 38.25 12.125 38.25C13.0533 38.25 13.9435 37.8813 14.5999 37.2249C15.2563 36.5685 15.625 35.6783 15.625 34.75M20.875 34.75C20.875 35.6783 21.2437 36.5685 21.9001 37.2249C22.5565 37.8813 23.4467 38.25 24.375 38.25C25.3033 38.25 26.1935 37.8813 26.8499 37.2249C27.5063 36.5685 27.875 35.6783 27.875 34.75M11.25 11.125H38.375V11.5625L37.9567 12.0577C33.7055 17.1065 31.3745 23.4948 31.375 30.095V30.375H8.625V27.085C8.625 23.445 8.5095 19.8085 7.9495 16.214C6.98 9.991 4.83975 0.625 0.75 0.625" stroke="#6E419A"/>
-              </svg>
-          </a>
-          </div>
-        </div>                        
-    </article>
-    <article class="carousel-item__carta">
-      <div class="d-flex flex-column align-items-center">
-        <a href="#" class="text-decoration-none text-light">
-            <picture>
-              <img src="../img/Burn.jpg"  alt="imagen">
-            </picture>
-        </a>
-        <small>89 copias</small>
-      </div>
-        <div class=" d-flex custom-info">
-        <span class="span-success rounded">$20.50</span>
-        <span class="span-danger rounded">$12.20</span>
-          <div class=" d-flex compra align-items-center rounded">
-          <input type="number" name="cant" id="cant" min="0" class="input-cart" placeholder="1">
-          <a href="#" class="ms-1">
-              <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 39 39" fill="none">
-                <path d="M8.625 34.75C8.625 35.6783 8.99375 36.5685 9.65013 37.2249C10.3065 37.8813 11.1967 38.25 12.125 38.25C13.0533 38.25 13.9435 37.8813 14.5999 37.2249C15.2563 36.5685 15.625 35.6783 15.625 34.75M20.875 34.75C20.875 35.6783 21.2437 36.5685 21.9001 37.2249C22.5565 37.8813 23.4467 38.25 24.375 38.25C25.3033 38.25 26.1935 37.8813 26.8499 37.2249C27.5063 36.5685 27.875 35.6783 27.875 34.75M11.25 11.125H38.375V11.5625L37.9567 12.0577C33.7055 17.1065 31.3745 23.4948 31.375 30.095V30.375H8.625V27.085C8.625 23.445 8.5095 19.8085 7.9495 16.214C6.98 9.991 4.83975 0.625 0.75 0.625" stroke="#6E419A"/>
-              </svg>
-          </a>
-          </div>
-        </div>                        
-    </article>
-    <article class="carousel-item__carta">
-      <div class="d-flex flex-column align-items-center">
-        <a href="#" class="text-decoration-none text-light">
-            <picture>
-              <img src="../img/Squadron-Hawk.jpg"  alt="imagen">
-            </picture>
-        </a>
-        <small>89 copias</small>
-      </div>
-        <div class=" d-flex custom-info">
-        <span class="span-success rounded">$20.50</span>
-        <span class="span-danger rounded">$12.20</span>
-          <div class=" d-flex compra align-items-center rounded">
-          <input type="number" name="cant" id="cant" min="0" class="input-cart" placeholder="1">
-          <a href="#" class="ms-1">
-              <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 39 39" fill="none">
-                <path d="M8.625 34.75C8.625 35.6783 8.99375 36.5685 9.65013 37.2249C10.3065 37.8813 11.1967 38.25 12.125 38.25C13.0533 38.25 13.9435 37.8813 14.5999 37.2249C15.2563 36.5685 15.625 35.6783 15.625 34.75M20.875 34.75C20.875 35.6783 21.2437 36.5685 21.9001 37.2249C22.5565 37.8813 23.4467 38.25 24.375 38.25C25.3033 38.25 26.1935 37.8813 26.8499 37.2249C27.5063 36.5685 27.875 35.6783 27.875 34.75M11.25 11.125H38.375V11.5625L37.9567 12.0577C33.7055 17.1065 31.3745 23.4948 31.375 30.095V30.375H8.625V27.085C8.625 23.445 8.5095 19.8085 7.9495 16.214C6.98 9.991 4.83975 0.625 0.75 0.625" stroke="#6E419A"/>
-              </svg>
-          </a>
-          </div>
-        </div>                        
-    </article>
-  </div>
+          </article>
+          <article class="carousel-item__carta last ">
+            <div class="d-flex flex-column align-items-center">
+              <a href="#" class="text-decoration-none text-light">
+                  <picture>
+                    <img src="../img/Squadron-Hawk.jpg"  alt="imagen">
+                  </picture>
+              </a>
+              <small>89 copias</small>
+            </div>
+              <div class=" d-flex custom-info">
+              <span class="span-success rounded">$20.50</span>
+              <span class="span-danger rounded">$12.20</span>
+                <div class=" d-flex compra align-items-center rounded">
+                <input type="number" name="cant" id="cant" min="0" class="input-cart" placeholder="1">
+                <a href="#" class="ms-1">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 39 39" fill="none">
+                      <path d="M8.625 34.75C8.625 35.6783 8.99375 36.5685 9.65013 37.2249C10.3065 37.8813 11.1967 38.25 12.125 38.25C13.0533 38.25 13.9435 37.8813 14.5999 37.2249C15.2563 36.5685 15.625 35.6783 15.625 34.75M20.875 34.75C20.875 35.6783 21.2437 36.5685 21.9001 37.2249C22.5565 37.8813 23.4467 38.25 24.375 38.25C25.3033 38.25 26.1935 37.8813 26.8499 37.2249C27.5063 36.5685 27.875 35.6783 27.875 34.75M11.25 11.125H38.375V11.5625L37.9567 12.0577C33.7055 17.1065 31.3745 23.4948 31.375 30.095V30.375H8.625V27.085C8.625 23.445 8.5095 19.8085 7.9495 16.214C6.98 9.991 4.83975 0.625 0.75 0.625" stroke="#6E419A"/>
+                    </svg>
+                </a>
+                </div>
+              </div>                        
+          </article>
+          <article class="carousel-item__carta last ">
+            <div class="d-flex flex-column align-items-center">
+              <a href="#" class="text-decoration-none text-light">
+                  <picture>
+                    <img src="../img/Tolarian-Terror-DMU-265.jpg"  alt="imagen">
+                  </picture>
+              </a>
+              <small>89 copias</small>
+            </div>
+              <div class=" d-flex custom-info">
+              <span class="span-success rounded">$20.50</span>
+              <span class="span-danger rounded">$12.20</span>
+                <div class=" d-flex compra align-items-center rounded">
+                <input type="number" name="cant" id="cant" min="0" class="input-cart" placeholder="1">
+                <a href="#" class="ms-1">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 39 39" fill="none">
+                      <path d="M8.625 34.75C8.625 35.6783 8.99375 36.5685 9.65013 37.2249C10.3065 37.8813 11.1967 38.25 12.125 38.25C13.0533 38.25 13.9435 37.8813 14.5999 37.2249C15.2563 36.5685 15.625 35.6783 15.625 34.75M20.875 34.75C20.875 35.6783 21.2437 36.5685 21.9001 37.2249C22.5565 37.8813 23.4467 38.25 24.375 38.25C25.3033 38.25 26.1935 37.8813 26.8499 37.2249C27.5063 36.5685 27.875 35.6783 27.875 34.75M11.25 11.125H38.375V11.5625L37.9567 12.0577C33.7055 17.1065 31.3745 23.4948 31.375 30.095V30.375H8.625V27.085C8.625 23.445 8.5095 19.8085 7.9495 16.214C6.98 9.991 4.83975 0.625 0.75 0.625" stroke="#6E419A"/>
+                    </svg>
+                </a>
+                </div>
+              </div>                        
+          </article>
+          <article class="carousel-item__carta">
+            <div class="d-flex flex-column align-items-center">
+              <a href="#" class="text-decoration-none text-light">
+                  <picture>
+                    <img src="../img/Delver-of-Secrets.jpg"  alt="imagen">
+                  </picture>
+              </a>
+              <small>89 copias</small>
+            </div>
+              <div class=" d-flex custom-info">
+              <span class="span-success rounded">$20.50</span>
+              <span class="span-danger rounded">$12.20</span>
+                <div class=" d-flex compra align-items-center rounded">
+                <input type="number" name="cant" id="cant" min="0" class="input-cart" placeholder="1">
+                <a href="#" class="ms-1">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 39 39" fill="none">
+                      <path d="M8.625 34.75C8.625 35.6783 8.99375 36.5685 9.65013 37.2249C10.3065 37.8813 11.1967 38.25 12.125 38.25C13.0533 38.25 13.9435 37.8813 14.5999 37.2249C15.2563 36.5685 15.625 35.6783 15.625 34.75M20.875 34.75C20.875 35.6783 21.2437 36.5685 21.9001 37.2249C22.5565 37.8813 23.4467 38.25 24.375 38.25C25.3033 38.25 26.1935 37.8813 26.8499 37.2249C27.5063 36.5685 27.875 35.6783 27.875 34.75M11.25 11.125H38.375V11.5625L37.9567 12.0577C33.7055 17.1065 31.3745 23.4948 31.375 30.095V30.375H8.625V27.085C8.625 23.445 8.5095 19.8085 7.9495 16.214C6.98 9.991 4.83975 0.625 0.75 0.625" stroke="#6E419A"/>
+                    </svg>
+                </a>
+                </div>
+              </div>                        
+          </article>
+          <article class="carousel-item__carta">
+            <div class="d-flex flex-column align-items-center">
+              <a href="#" class="text-decoration-none text-light">
+                  <picture>
+                    <img src="../img/Burn.jpg"  alt="imagen">
+                  </picture>
+              </a>
+              <small>89 copias</small>
+            </div>
+              <div class=" d-flex custom-info">
+              <span class="span-success rounded">$20.50</span>
+              <span class="span-danger rounded">$12.20</span>
+                <div class=" d-flex compra align-items-center rounded">
+                <input type="number" name="cant" id="cant" min="0" class="input-cart" placeholder="1">
+                <a href="#" class="ms-1">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 39 39" fill="none">
+                      <path d="M8.625 34.75C8.625 35.6783 8.99375 36.5685 9.65013 37.2249C10.3065 37.8813 11.1967 38.25 12.125 38.25C13.0533 38.25 13.9435 37.8813 14.5999 37.2249C15.2563 36.5685 15.625 35.6783 15.625 34.75M20.875 34.75C20.875 35.6783 21.2437 36.5685 21.9001 37.2249C22.5565 37.8813 23.4467 38.25 24.375 38.25C25.3033 38.25 26.1935 37.8813 26.8499 37.2249C27.5063 36.5685 27.875 35.6783 27.875 34.75M11.25 11.125H38.375V11.5625L37.9567 12.0577C33.7055 17.1065 31.3745 23.4948 31.375 30.095V30.375H8.625V27.085C8.625 23.445 8.5095 19.8085 7.9495 16.214C6.98 9.991 4.83975 0.625 0.75 0.625" stroke="#6E419A"/>
+                    </svg>
+                </a>
+                </div>
+              </div>                        
+          </article>
+          <article class="carousel-item__carta">
+            <div class="d-flex flex-column align-items-center">
+              <a href="#" class="text-decoration-none text-light">
+                  <picture>
+                    <img src="../img/Squadron-Hawk.jpg"  alt="imagen">
+                  </picture>
+              </a>
+              <small>89 copias</small>
+            </div>
+              <div class=" d-flex custom-info">
+              <span class="span-success rounded">$20.50</span>
+              <span class="span-danger rounded">$12.20</span>
+                <div class=" d-flex compra align-items-center rounded">
+                <input type="number" name="cant" id="cant" min="0" class="input-cart" placeholder="1">
+                <a href="#" class="ms-1">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 39 39" fill="none">
+                      <path d="M8.625 34.75C8.625 35.6783 8.99375 36.5685 9.65013 37.2249C10.3065 37.8813 11.1967 38.25 12.125 38.25C13.0533 38.25 13.9435 37.8813 14.5999 37.2249C15.2563 36.5685 15.625 35.6783 15.625 34.75M20.875 34.75C20.875 35.6783 21.2437 36.5685 21.9001 37.2249C22.5565 37.8813 23.4467 38.25 24.375 38.25C25.3033 38.25 26.1935 37.8813 26.8499 37.2249C27.5063 36.5685 27.875 35.6783 27.875 34.75M11.25 11.125H38.375V11.5625L37.9567 12.0577C33.7055 17.1065 31.3745 23.4948 31.375 30.095V30.375H8.625V27.085C8.625 23.445 8.5095 19.8085 7.9495 16.214C6.98 9.991 4.83975 0.625 0.75 0.625" stroke="#6E419A"/>
+                    </svg>
+                </a>
+                </div>
+              </div>                        
+          </article>
         </div>
-
+        </div>
       </div>  
     </section>
 
@@ -583,7 +584,7 @@
     <section class=" carrusel-section cartas-populares responsive shadow rounded ">
       <header class="cartas-populares__header rounded-top">
         <div>
-          <h3 class="custom-cartelera text-light ms-4 fs-4 ">Cartas mas intercambiadas</h3>
+          <h3 class="custom-cartelera text-light ms-4 fs-5 ">Cartas mas intercambiadas</h3>
         </div>
         <div class="carousel custom-arrow ">
           <button class="carousel-control-prev custom-arrow__prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
@@ -621,7 +622,7 @@
                       </div>
                     </div>                        
           </article>
-          <article class="carousel-item__carta ">
+          <article class="carousel-item__carta last ">
             <div class="d-flex flex-column align-items-center">
               <a href="#" class="text-decoration-none text-light">
                   <picture>
@@ -643,7 +644,7 @@
                 </div>
               </div>                        
           </article>
-          <article class="carousel-item__carta ">
+          <article class="carousel-item__carta last ">
             <div class="d-flex flex-column align-items-center">
               <a href="#" class="text-decoration-none text-light">
                   <picture>
@@ -754,118 +755,118 @@
                 </a>
                 </div>
               </div>                        
-    </article>
-    <article class="carousel-item__carta ">
-      <div class="d-flex flex-column align-items-center">
-        <a href="#" class="text-decoration-none text-light">
-            <picture>
-              <img src="../img/Squadron-Hawk.jpg"  alt="imagen">
-            </picture>
-        </a>
-        <small>89 copias</small>
-      </div>
-        <div class=" d-flex custom-info">
-        <span class="span-success rounded">$20.50</span>
-        <span class="span-danger rounded">$12.20</span>
-          <div class=" d-flex compra align-items-center rounded">
-          <input type="number" name="cant" id="cant" min="0" class="input-cart" placeholder="1">
-          <a href="#" class="ms-1">
-              <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 39 39" fill="none">
-                <path d="M8.625 34.75C8.625 35.6783 8.99375 36.5685 9.65013 37.2249C10.3065 37.8813 11.1967 38.25 12.125 38.25C13.0533 38.25 13.9435 37.8813 14.5999 37.2249C15.2563 36.5685 15.625 35.6783 15.625 34.75M20.875 34.75C20.875 35.6783 21.2437 36.5685 21.9001 37.2249C22.5565 37.8813 23.4467 38.25 24.375 38.25C25.3033 38.25 26.1935 37.8813 26.8499 37.2249C27.5063 36.5685 27.875 35.6783 27.875 34.75M11.25 11.125H38.375V11.5625L37.9567 12.0577C33.7055 17.1065 31.3745 23.4948 31.375 30.095V30.375H8.625V27.085C8.625 23.445 8.5095 19.8085 7.9495 16.214C6.98 9.991 4.83975 0.625 0.75 0.625" stroke="#6E419A"/>
-              </svg>
-          </a>
-          </div>
-        </div>                        
-    </article>
-    <article class="carousel-item__carta ">
-      <div class="d-flex flex-column align-items-center">
-        <a href="#" class="text-decoration-none text-light">
-            <picture>
-              <img src="../img/Tolarian-Terror-DMU-265.jpg"  alt="imagen">
-            </picture>
-        </a>
-        <small>89 copias</small>
-      </div>
-        <div class=" d-flex custom-info">
-        <span class="span-success rounded">$20.50</span>
-        <span class="span-danger rounded">$12.20</span>
-          <div class=" d-flex compra align-items-center rounded">
-          <input type="number" name="cant" id="cant" min="0" class="input-cart" placeholder="1">
-          <a href="#" class="ms-1">
-              <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 39 39" fill="none">
-                <path d="M8.625 34.75C8.625 35.6783 8.99375 36.5685 9.65013 37.2249C10.3065 37.8813 11.1967 38.25 12.125 38.25C13.0533 38.25 13.9435 37.8813 14.5999 37.2249C15.2563 36.5685 15.625 35.6783 15.625 34.75M20.875 34.75C20.875 35.6783 21.2437 36.5685 21.9001 37.2249C22.5565 37.8813 23.4467 38.25 24.375 38.25C25.3033 38.25 26.1935 37.8813 26.8499 37.2249C27.5063 36.5685 27.875 35.6783 27.875 34.75M11.25 11.125H38.375V11.5625L37.9567 12.0577C33.7055 17.1065 31.3745 23.4948 31.375 30.095V30.375H8.625V27.085C8.625 23.445 8.5095 19.8085 7.9495 16.214C6.98 9.991 4.83975 0.625 0.75 0.625" stroke="#6E419A"/>
-              </svg>
-          </a>
-          </div>
-        </div>                        
-    </article>
-    <article class="carousel-item__carta">
-      <div class="d-flex flex-column align-items-center">
-        <a href="#" class="text-decoration-none text-light">
-            <picture>
-              <img src="../img/Delver-of-Secrets.jpg"  alt="imagen">
-            </picture>
-        </a>
-        <small>89 copias</small>
-      </div>
-        <div class=" d-flex custom-info">
-        <span class="span-success rounded">$20.50</span>
-        <span class="span-danger rounded">$12.20</span>
-          <div class=" d-flex compra align-items-center rounded">
-          <input type="number" name="cant" id="cant" min="0" class="input-cart" placeholder="1">
-          <a href="#" class="ms-1">
-              <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 39 39" fill="none">
-                <path d="M8.625 34.75C8.625 35.6783 8.99375 36.5685 9.65013 37.2249C10.3065 37.8813 11.1967 38.25 12.125 38.25C13.0533 38.25 13.9435 37.8813 14.5999 37.2249C15.2563 36.5685 15.625 35.6783 15.625 34.75M20.875 34.75C20.875 35.6783 21.2437 36.5685 21.9001 37.2249C22.5565 37.8813 23.4467 38.25 24.375 38.25C25.3033 38.25 26.1935 37.8813 26.8499 37.2249C27.5063 36.5685 27.875 35.6783 27.875 34.75M11.25 11.125H38.375V11.5625L37.9567 12.0577C33.7055 17.1065 31.3745 23.4948 31.375 30.095V30.375H8.625V27.085C8.625 23.445 8.5095 19.8085 7.9495 16.214C6.98 9.991 4.83975 0.625 0.75 0.625" stroke="#6E419A"/>
-              </svg>
-          </a>
-          </div>
-        </div>                        
-    </article>
-    <article class="carousel-item__carta">
-      <div class="d-flex flex-column align-items-center">
-        <a href="#" class="text-decoration-none text-light">
-            <picture>
-              <img src="../img/Burn.jpg"  alt="imagen">
-            </picture>
-        </a>
-        <small>89 copias</small>
-      </div>
-        <div class=" d-flex custom-info">
-        <span class="span-success rounded">$20.50</span>
-        <span class="span-danger rounded">$12.20</span>
-          <div class=" d-flex compra align-items-center rounded">
-          <input type="number" name="cant" id="cant" min="0" class="input-cart" placeholder="1">
-          <a href="#" class="ms-1">
-              <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 39 39" fill="none">
-                <path d="M8.625 34.75C8.625 35.6783 8.99375 36.5685 9.65013 37.2249C10.3065 37.8813 11.1967 38.25 12.125 38.25C13.0533 38.25 13.9435 37.8813 14.5999 37.2249C15.2563 36.5685 15.625 35.6783 15.625 34.75M20.875 34.75C20.875 35.6783 21.2437 36.5685 21.9001 37.2249C22.5565 37.8813 23.4467 38.25 24.375 38.25C25.3033 38.25 26.1935 37.8813 26.8499 37.2249C27.5063 36.5685 27.875 35.6783 27.875 34.75M11.25 11.125H38.375V11.5625L37.9567 12.0577C33.7055 17.1065 31.3745 23.4948 31.375 30.095V30.375H8.625V27.085C8.625 23.445 8.5095 19.8085 7.9495 16.214C6.98 9.991 4.83975 0.625 0.75 0.625" stroke="#6E419A"/>
-              </svg>
-          </a>
-          </div>
-        </div>                        
-    </article>
-    <article class="carousel-item__carta">
-      <div class="d-flex flex-column align-items-center">
-        <a href="#" class="text-decoration-none text-light">
-            <picture>
-              <img src="../img/Squadron-Hawk.jpg"  alt="imagen">
-            </picture>
-        </a>
-        <small>89 copias</small>
-      </div>
-        <div class=" d-flex custom-info">
-        <span class="span-success rounded">$20.50</span>
-        <span class="span-danger rounded">$12.20</span>
-          <div class=" d-flex compra align-items-center rounded">
-          <input type="number" name="cant" id="cant" min="0" class="input-cart" placeholder="1">
-          <a href="#" class="ms-1">
-              <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 39 39" fill="none">
-                <path d="M8.625 34.75C8.625 35.6783 8.99375 36.5685 9.65013 37.2249C10.3065 37.8813 11.1967 38.25 12.125 38.25C13.0533 38.25 13.9435 37.8813 14.5999 37.2249C15.2563 36.5685 15.625 35.6783 15.625 34.75M20.875 34.75C20.875 35.6783 21.2437 36.5685 21.9001 37.2249C22.5565 37.8813 23.4467 38.25 24.375 38.25C25.3033 38.25 26.1935 37.8813 26.8499 37.2249C27.5063 36.5685 27.875 35.6783 27.875 34.75M11.25 11.125H38.375V11.5625L37.9567 12.0577C33.7055 17.1065 31.3745 23.4948 31.375 30.095V30.375H8.625V27.085C8.625 23.445 8.5095 19.8085 7.9495 16.214C6.98 9.991 4.83975 0.625 0.75 0.625" stroke="#6E419A"/>
-              </svg>
-          </a>
-          </div>
-        </div>                        
-    </article>
-'     </div>
+          </article>
+          <article class="carousel-item__carta last ">
+            <div class="d-flex flex-column align-items-center">
+              <a href="#" class="text-decoration-none text-light">
+                  <picture>
+                    <img src="../img/Squadron-Hawk.jpg"  alt="imagen">
+                  </picture>
+              </a>
+              <small>89 copias</small>
+            </div>
+              <div class=" d-flex custom-info">
+              <span class="span-success rounded">$20.50</span>
+              <span class="span-danger rounded">$12.20</span>
+                <div class=" d-flex compra align-items-center rounded">
+                <input type="number" name="cant" id="cant" min="0" class="input-cart" placeholder="1">
+                <a href="#" class="ms-1">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 39 39" fill="none">
+                      <path d="M8.625 34.75C8.625 35.6783 8.99375 36.5685 9.65013 37.2249C10.3065 37.8813 11.1967 38.25 12.125 38.25C13.0533 38.25 13.9435 37.8813 14.5999 37.2249C15.2563 36.5685 15.625 35.6783 15.625 34.75M20.875 34.75C20.875 35.6783 21.2437 36.5685 21.9001 37.2249C22.5565 37.8813 23.4467 38.25 24.375 38.25C25.3033 38.25 26.1935 37.8813 26.8499 37.2249C27.5063 36.5685 27.875 35.6783 27.875 34.75M11.25 11.125H38.375V11.5625L37.9567 12.0577C33.7055 17.1065 31.3745 23.4948 31.375 30.095V30.375H8.625V27.085C8.625 23.445 8.5095 19.8085 7.9495 16.214C6.98 9.991 4.83975 0.625 0.75 0.625" stroke="#6E419A"/>
+                    </svg>
+                </a>
+                </div>
+              </div>                        
+          </article>
+          <article class="carousel-item__carta last ">
+            <div class="d-flex flex-column align-items-center">
+              <a href="#" class="text-decoration-none text-light">
+                  <picture>
+                    <img src="../img/Tolarian-Terror-DMU-265.jpg"  alt="imagen">
+                  </picture>
+              </a>
+              <small>89 copias</small>
+            </div>
+              <div class=" d-flex custom-info">
+              <span class="span-success rounded">$20.50</span>
+              <span class="span-danger rounded">$12.20</span>
+                <div class=" d-flex compra align-items-center rounded">
+                <input type="number" name="cant" id="cant" min="0" class="input-cart" placeholder="1">
+                <a href="#" class="ms-1">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 39 39" fill="none">
+                      <path d="M8.625 34.75C8.625 35.6783 8.99375 36.5685 9.65013 37.2249C10.3065 37.8813 11.1967 38.25 12.125 38.25C13.0533 38.25 13.9435 37.8813 14.5999 37.2249C15.2563 36.5685 15.625 35.6783 15.625 34.75M20.875 34.75C20.875 35.6783 21.2437 36.5685 21.9001 37.2249C22.5565 37.8813 23.4467 38.25 24.375 38.25C25.3033 38.25 26.1935 37.8813 26.8499 37.2249C27.5063 36.5685 27.875 35.6783 27.875 34.75M11.25 11.125H38.375V11.5625L37.9567 12.0577C33.7055 17.1065 31.3745 23.4948 31.375 30.095V30.375H8.625V27.085C8.625 23.445 8.5095 19.8085 7.9495 16.214C6.98 9.991 4.83975 0.625 0.75 0.625" stroke="#6E419A"/>
+                    </svg>
+                </a>
+                </div>
+              </div>                        
+          </article>
+          <article class="carousel-item__carta">
+            <div class="d-flex flex-column align-items-center">
+              <a href="#" class="text-decoration-none text-light">
+                  <picture>
+                    <img src="../img/Delver-of-Secrets.jpg"  alt="imagen">
+                  </picture>
+              </a>
+              <small>89 copias</small>
+            </div>
+              <div class=" d-flex custom-info">
+              <span class="span-success rounded">$20.50</span>
+              <span class="span-danger rounded">$12.20</span>
+                <div class=" d-flex compra align-items-center rounded">
+                <input type="number" name="cant" id="cant" min="0" class="input-cart" placeholder="1">
+                <a href="#" class="ms-1">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 39 39" fill="none">
+                      <path d="M8.625 34.75C8.625 35.6783 8.99375 36.5685 9.65013 37.2249C10.3065 37.8813 11.1967 38.25 12.125 38.25C13.0533 38.25 13.9435 37.8813 14.5999 37.2249C15.2563 36.5685 15.625 35.6783 15.625 34.75M20.875 34.75C20.875 35.6783 21.2437 36.5685 21.9001 37.2249C22.5565 37.8813 23.4467 38.25 24.375 38.25C25.3033 38.25 26.1935 37.8813 26.8499 37.2249C27.5063 36.5685 27.875 35.6783 27.875 34.75M11.25 11.125H38.375V11.5625L37.9567 12.0577C33.7055 17.1065 31.3745 23.4948 31.375 30.095V30.375H8.625V27.085C8.625 23.445 8.5095 19.8085 7.9495 16.214C6.98 9.991 4.83975 0.625 0.75 0.625" stroke="#6E419A"/>
+                    </svg>
+                </a>
+                </div>
+              </div>                        
+          </article>
+          <article class="carousel-item__carta">
+            <div class="d-flex flex-column align-items-center">
+              <a href="#" class="text-decoration-none text-light">
+                  <picture>
+                    <img src="../img/Burn.jpg"  alt="imagen">
+                  </picture>
+              </a>
+              <small>89 copias</small>
+            </div>
+              <div class=" d-flex custom-info">
+              <span class="span-success rounded">$20.50</span>
+              <span class="span-danger rounded">$12.20</span>
+                <div class=" d-flex compra align-items-center rounded">
+                <input type="number" name="cant" id="cant" min="0" class="input-cart" placeholder="1">
+                <a href="#" class="ms-1">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 39 39" fill="none">
+                      <path d="M8.625 34.75C8.625 35.6783 8.99375 36.5685 9.65013 37.2249C10.3065 37.8813 11.1967 38.25 12.125 38.25C13.0533 38.25 13.9435 37.8813 14.5999 37.2249C15.2563 36.5685 15.625 35.6783 15.625 34.75M20.875 34.75C20.875 35.6783 21.2437 36.5685 21.9001 37.2249C22.5565 37.8813 23.4467 38.25 24.375 38.25C25.3033 38.25 26.1935 37.8813 26.8499 37.2249C27.5063 36.5685 27.875 35.6783 27.875 34.75M11.25 11.125H38.375V11.5625L37.9567 12.0577C33.7055 17.1065 31.3745 23.4948 31.375 30.095V30.375H8.625V27.085C8.625 23.445 8.5095 19.8085 7.9495 16.214C6.98 9.991 4.83975 0.625 0.75 0.625" stroke="#6E419A"/>
+                    </svg>
+                </a>
+                </div>
+              </div>                        
+          </article>
+          <article class="carousel-item__carta">
+            <div class="d-flex flex-column align-items-center">
+              <a href="#" class="text-decoration-none text-light">
+                  <picture>
+                    <img src="../img/Squadron-Hawk.jpg"  alt="imagen">
+                  </picture>
+              </a>
+              <small>89 copias</small>
+            </div>
+              <div class=" d-flex custom-info">
+              <span class="span-success rounded">$20.50</span>
+              <span class="span-danger rounded">$12.20</span>
+                <div class=" d-flex compra align-items-center rounded">
+                <input type="number" name="cant" id="cant" min="0" class="input-cart" placeholder="1">
+                <a href="#" class="ms-1">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 39 39" fill="none">
+                      <path d="M8.625 34.75C8.625 35.6783 8.99375 36.5685 9.65013 37.2249C10.3065 37.8813 11.1967 38.25 12.125 38.25C13.0533 38.25 13.9435 37.8813 14.5999 37.2249C15.2563 36.5685 15.625 35.6783 15.625 34.75M20.875 34.75C20.875 35.6783 21.2437 36.5685 21.9001 37.2249C22.5565 37.8813 23.4467 38.25 24.375 38.25C25.3033 38.25 26.1935 37.8813 26.8499 37.2249C27.5063 36.5685 27.875 35.6783 27.875 34.75M11.25 11.125H38.375V11.5625L37.9567 12.0577C33.7055 17.1065 31.3745 23.4948 31.375 30.095V30.375H8.625V27.085C8.625 23.445 8.5095 19.8085 7.9495 16.214C6.98 9.991 4.83975 0.625 0.75 0.625" stroke="#6E419A"/>
+                    </svg>
+                </a>
+                </div>
+              </div>                        
+          </article>
+'       </div>
         <div class="carousel-item">
           <article class="carousel-item__carta ">
             <div class="d-flex flex-column align-items-center">
@@ -888,120 +889,119 @@
                 </a>
                 </div>
               </div>                        
-    </article>
-    <article class="carousel-item__carta ">
-      <div class="d-flex flex-column align-items-center">
-        <a href="#" class="text-decoration-none text-light">
-            <picture>
-              <img src="../img/Squadron-Hawk.jpg"  alt="imagen">
-            </picture>
-        </a>
-        <small>89 copias</small>
-      </div>
-        <div class=" d-flex custom-info">
-        <span class="span-success rounded">$20.50</span>
-        <span class="span-danger rounded">$12.20</span>
-          <div class=" d-flex compra align-items-center rounded">
-          <input type="number" name="cant" id="cant" min="0" class="input-cart" placeholder="1">
-          <a href="#" class="ms-1">
-              <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 39 39" fill="none">
-                <path d="M8.625 34.75C8.625 35.6783 8.99375 36.5685 9.65013 37.2249C10.3065 37.8813 11.1967 38.25 12.125 38.25C13.0533 38.25 13.9435 37.8813 14.5999 37.2249C15.2563 36.5685 15.625 35.6783 15.625 34.75M20.875 34.75C20.875 35.6783 21.2437 36.5685 21.9001 37.2249C22.5565 37.8813 23.4467 38.25 24.375 38.25C25.3033 38.25 26.1935 37.8813 26.8499 37.2249C27.5063 36.5685 27.875 35.6783 27.875 34.75M11.25 11.125H38.375V11.5625L37.9567 12.0577C33.7055 17.1065 31.3745 23.4948 31.375 30.095V30.375H8.625V27.085C8.625 23.445 8.5095 19.8085 7.9495 16.214C6.98 9.991 4.83975 0.625 0.75 0.625" stroke="#6E419A"/>
-              </svg>
-          </a>
-          </div>
-        </div>                        
-    </article>
-    <article class="carousel-item__carta ">
-      <div class="d-flex flex-column align-items-center">
-        <a href="#" class="text-decoration-none text-light">
-            <picture>
-              <img src="../img/Tolarian-Terror-DMU-265.jpg"  alt="imagen">
-            </picture>
-        </a>
-        <small>89 copias</small>
-      </div>
-        <div class=" d-flex custom-info">
-        <span class="span-success rounded">$20.50</span>
-        <span class="span-danger rounded">$12.20</span>
-          <div class=" d-flex compra align-items-center rounded">
-          <input type="number" name="cant" id="cant" min="0" class="input-cart" placeholder="1">
-          <a href="#" class="ms-1">
-              <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 39 39" fill="none">
-                <path d="M8.625 34.75C8.625 35.6783 8.99375 36.5685 9.65013 37.2249C10.3065 37.8813 11.1967 38.25 12.125 38.25C13.0533 38.25 13.9435 37.8813 14.5999 37.2249C15.2563 36.5685 15.625 35.6783 15.625 34.75M20.875 34.75C20.875 35.6783 21.2437 36.5685 21.9001 37.2249C22.5565 37.8813 23.4467 38.25 24.375 38.25C25.3033 38.25 26.1935 37.8813 26.8499 37.2249C27.5063 36.5685 27.875 35.6783 27.875 34.75M11.25 11.125H38.375V11.5625L37.9567 12.0577C33.7055 17.1065 31.3745 23.4948 31.375 30.095V30.375H8.625V27.085C8.625 23.445 8.5095 19.8085 7.9495 16.214C6.98 9.991 4.83975 0.625 0.75 0.625" stroke="#6E419A"/>
-              </svg>
-          </a>
-          </div>
-        </div>                        
-    </article>
-    <article class="carousel-item__carta">
-      <div class="d-flex flex-column align-items-center">
-        <a href="#" class="text-decoration-none text-light">
-            <picture>
-              <img src="../img/Delver-of-Secrets.jpg"  alt="imagen">
-            </picture>
-        </a>
-        <small>89 copias</small>
-      </div>
-        <div class=" d-flex custom-info">
-        <span class="span-success rounded">$20.50</span>
-        <span class="span-danger rounded">$12.20</span>
-          <div class=" d-flex compra align-items-center rounded">
-          <input type="number" name="cant" id="cant" min="0" class="input-cart" placeholder="1">
-          <a href="#" class="ms-1">
-              <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 39 39" fill="none">
-                <path d="M8.625 34.75C8.625 35.6783 8.99375 36.5685 9.65013 37.2249C10.3065 37.8813 11.1967 38.25 12.125 38.25C13.0533 38.25 13.9435 37.8813 14.5999 37.2249C15.2563 36.5685 15.625 35.6783 15.625 34.75M20.875 34.75C20.875 35.6783 21.2437 36.5685 21.9001 37.2249C22.5565 37.8813 23.4467 38.25 24.375 38.25C25.3033 38.25 26.1935 37.8813 26.8499 37.2249C27.5063 36.5685 27.875 35.6783 27.875 34.75M11.25 11.125H38.375V11.5625L37.9567 12.0577C33.7055 17.1065 31.3745 23.4948 31.375 30.095V30.375H8.625V27.085C8.625 23.445 8.5095 19.8085 7.9495 16.214C6.98 9.991 4.83975 0.625 0.75 0.625" stroke="#6E419A"/>
-              </svg>
-          </a>
-          </div>
-        </div>                        
-    </article>
-    <article class="carousel-item__carta">
-      <div class="d-flex flex-column align-items-center">
-        <a href="#" class="text-decoration-none text-light">
-            <picture>
-              <img src="../img/Burn.jpg"  alt="imagen">
-            </picture>
-        </a>
-        <small>89 copias</small>
-      </div>
-        <div class=" d-flex custom-info">
-        <span class="span-success rounded">$20.50</span>
-        <span class="span-danger rounded">$12.20</span>
-          <div class=" d-flex compra align-items-center rounded">
-          <input type="number" name="cant" id="cant" min="0" class="input-cart" placeholder="1">
-          <a href="#" class="ms-1">
-              <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 39 39" fill="none">
-                <path d="M8.625 34.75C8.625 35.6783 8.99375 36.5685 9.65013 37.2249C10.3065 37.8813 11.1967 38.25 12.125 38.25C13.0533 38.25 13.9435 37.8813 14.5999 37.2249C15.2563 36.5685 15.625 35.6783 15.625 34.75M20.875 34.75C20.875 35.6783 21.2437 36.5685 21.9001 37.2249C22.5565 37.8813 23.4467 38.25 24.375 38.25C25.3033 38.25 26.1935 37.8813 26.8499 37.2249C27.5063 36.5685 27.875 35.6783 27.875 34.75M11.25 11.125H38.375V11.5625L37.9567 12.0577C33.7055 17.1065 31.3745 23.4948 31.375 30.095V30.375H8.625V27.085C8.625 23.445 8.5095 19.8085 7.9495 16.214C6.98 9.991 4.83975 0.625 0.75 0.625" stroke="#6E419A"/>
-              </svg>
-          </a>
-          </div>
-        </div>                        
-    </article>
-    <article class="carousel-item__carta">
-      <div class="d-flex flex-column align-items-center">
-        <a href="#" class="text-decoration-none text-light">
-            <picture>
-              <img src="../img/Squadron-Hawk.jpg"  alt="imagen">
-            </picture>
-        </a>
-        <small>89 copias</small>
-      </div>
-        <div class=" d-flex custom-info">
-        <span class="span-success rounded">$20.50</span>
-        <span class="span-danger rounded">$12.20</span>
-          <div class=" d-flex compra align-items-center rounded">
-          <input type="number" name="cant" id="cant" min="0" class="input-cart" placeholder="1">
-          <a href="#" class="ms-1">
-              <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 39 39" fill="none">
-                <path d="M8.625 34.75C8.625 35.6783 8.99375 36.5685 9.65013 37.2249C10.3065 37.8813 11.1967 38.25 12.125 38.25C13.0533 38.25 13.9435 37.8813 14.5999 37.2249C15.2563 36.5685 15.625 35.6783 15.625 34.75M20.875 34.75C20.875 35.6783 21.2437 36.5685 21.9001 37.2249C22.5565 37.8813 23.4467 38.25 24.375 38.25C25.3033 38.25 26.1935 37.8813 26.8499 37.2249C27.5063 36.5685 27.875 35.6783 27.875 34.75M11.25 11.125H38.375V11.5625L37.9567 12.0577C33.7055 17.1065 31.3745 23.4948 31.375 30.095V30.375H8.625V27.085C8.625 23.445 8.5095 19.8085 7.9495 16.214C6.98 9.991 4.83975 0.625 0.75 0.625" stroke="#6E419A"/>
-              </svg>
-          </a>
-          </div>
-        </div>                        
-    </article>
-  </div>
+          </article>
+          <article class="carousel-item__carta last ">
+            <div class="d-flex flex-column align-items-center">
+              <a href="#" class="text-decoration-none text-light">
+                  <picture>
+                    <img src="../img/Squadron-Hawk.jpg"  alt="imagen">
+                  </picture>
+              </a>
+              <small>89 copias</small>
+            </div>
+              <div class=" d-flex custom-info">
+              <span class="span-success rounded">$20.50</span>
+              <span class="span-danger rounded">$12.20</span>
+                <div class=" d-flex compra align-items-center rounded">
+                <input type="number" name="cant" id="cant" min="0" class="input-cart" placeholder="1">
+                <a href="#" class="ms-1">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 39 39" fill="none">
+                      <path d="M8.625 34.75C8.625 35.6783 8.99375 36.5685 9.65013 37.2249C10.3065 37.8813 11.1967 38.25 12.125 38.25C13.0533 38.25 13.9435 37.8813 14.5999 37.2249C15.2563 36.5685 15.625 35.6783 15.625 34.75M20.875 34.75C20.875 35.6783 21.2437 36.5685 21.9001 37.2249C22.5565 37.8813 23.4467 38.25 24.375 38.25C25.3033 38.25 26.1935 37.8813 26.8499 37.2249C27.5063 36.5685 27.875 35.6783 27.875 34.75M11.25 11.125H38.375V11.5625L37.9567 12.0577C33.7055 17.1065 31.3745 23.4948 31.375 30.095V30.375H8.625V27.085C8.625 23.445 8.5095 19.8085 7.9495 16.214C6.98 9.991 4.83975 0.625 0.75 0.625" stroke="#6E419A"/>
+                    </svg>
+                </a>
+                </div>
+              </div>                        
+          </article>
+          <article class="carousel-item__carta last ">
+            <div class="d-flex flex-column align-items-center">
+              <a href="#" class="text-decoration-none text-light">
+                  <picture>
+                    <img src="../img/Tolarian-Terror-DMU-265.jpg"  alt="imagen">
+                  </picture>
+              </a>
+              <small>89 copias</small>
+            </div>
+              <div class=" d-flex custom-info">
+              <span class="span-success rounded">$20.50</span>
+              <span class="span-danger rounded">$12.20</span>
+                <div class=" d-flex compra align-items-center rounded">
+                <input type="number" name="cant" id="cant" min="0" class="input-cart" placeholder="1">
+                <a href="#" class="ms-1">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 39 39" fill="none">
+                      <path d="M8.625 34.75C8.625 35.6783 8.99375 36.5685 9.65013 37.2249C10.3065 37.8813 11.1967 38.25 12.125 38.25C13.0533 38.25 13.9435 37.8813 14.5999 37.2249C15.2563 36.5685 15.625 35.6783 15.625 34.75M20.875 34.75C20.875 35.6783 21.2437 36.5685 21.9001 37.2249C22.5565 37.8813 23.4467 38.25 24.375 38.25C25.3033 38.25 26.1935 37.8813 26.8499 37.2249C27.5063 36.5685 27.875 35.6783 27.875 34.75M11.25 11.125H38.375V11.5625L37.9567 12.0577C33.7055 17.1065 31.3745 23.4948 31.375 30.095V30.375H8.625V27.085C8.625 23.445 8.5095 19.8085 7.9495 16.214C6.98 9.991 4.83975 0.625 0.75 0.625" stroke="#6E419A"/>
+                    </svg>
+                </a>
+                </div>
+              </div>                        
+          </article>
+          <article class="carousel-item__carta">
+            <div class="d-flex flex-column align-items-center">
+              <a href="#" class="text-decoration-none text-light">
+                  <picture>
+                    <img src="../img/Delver-of-Secrets.jpg"  alt="imagen">
+                  </picture>
+              </a>
+              <small>89 copias</small>
+            </div>
+              <div class=" d-flex custom-info">
+              <span class="span-success rounded">$20.50</span>
+              <span class="span-danger rounded">$12.20</span>
+                <div class=" d-flex compra align-items-center rounded">
+                <input type="number" name="cant" id="cant" min="0" class="input-cart" placeholder="1">
+                <a href="#" class="ms-1">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 39 39" fill="none">
+                      <path d="M8.625 34.75C8.625 35.6783 8.99375 36.5685 9.65013 37.2249C10.3065 37.8813 11.1967 38.25 12.125 38.25C13.0533 38.25 13.9435 37.8813 14.5999 37.2249C15.2563 36.5685 15.625 35.6783 15.625 34.75M20.875 34.75C20.875 35.6783 21.2437 36.5685 21.9001 37.2249C22.5565 37.8813 23.4467 38.25 24.375 38.25C25.3033 38.25 26.1935 37.8813 26.8499 37.2249C27.5063 36.5685 27.875 35.6783 27.875 34.75M11.25 11.125H38.375V11.5625L37.9567 12.0577C33.7055 17.1065 31.3745 23.4948 31.375 30.095V30.375H8.625V27.085C8.625 23.445 8.5095 19.8085 7.9495 16.214C6.98 9.991 4.83975 0.625 0.75 0.625" stroke="#6E419A"/>
+                    </svg>
+                </a>
+                </div>
+              </div>                        
+          </article>
+          <article class="carousel-item__carta">
+            <div class="d-flex flex-column align-items-center">
+              <a href="#" class="text-decoration-none text-light">
+                  <picture>
+                    <img src="../img/Burn.jpg"  alt="imagen">
+                  </picture>
+              </a>
+              <small>89 copias</small>
+            </div>
+              <div class=" d-flex custom-info">
+              <span class="span-success rounded">$20.50</span>
+              <span class="span-danger rounded">$12.20</span>
+                <div class=" d-flex compra align-items-center rounded">
+                <input type="number" name="cant" id="cant" min="0" class="input-cart" placeholder="1">
+                <a href="#" class="ms-1">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 39 39" fill="none">
+                      <path d="M8.625 34.75C8.625 35.6783 8.99375 36.5685 9.65013 37.2249C10.3065 37.8813 11.1967 38.25 12.125 38.25C13.0533 38.25 13.9435 37.8813 14.5999 37.2249C15.2563 36.5685 15.625 35.6783 15.625 34.75M20.875 34.75C20.875 35.6783 21.2437 36.5685 21.9001 37.2249C22.5565 37.8813 23.4467 38.25 24.375 38.25C25.3033 38.25 26.1935 37.8813 26.8499 37.2249C27.5063 36.5685 27.875 35.6783 27.875 34.75M11.25 11.125H38.375V11.5625L37.9567 12.0577C33.7055 17.1065 31.3745 23.4948 31.375 30.095V30.375H8.625V27.085C8.625 23.445 8.5095 19.8085 7.9495 16.214C6.98 9.991 4.83975 0.625 0.75 0.625" stroke="#6E419A"/>
+                    </svg>
+                </a>
+                </div>
+              </div>                        
+          </article>
+          <article class="carousel-item__carta">
+            <div class="d-flex flex-column align-items-center">
+              <a href="#" class="text-decoration-none text-light">
+                  <picture>
+                    <img src="../img/Squadron-Hawk.jpg"  alt="imagen">
+                  </picture>
+              </a>
+              <small>89 copias</small>
+            </div>
+              <div class=" d-flex custom-info">
+              <span class="span-success rounded">$20.50</span>
+              <span class="span-danger rounded">$12.20</span>
+                <div class=" d-flex compra align-items-center rounded">
+                <input type="number" name="cant" id="cant" min="0" class="input-cart" placeholder="1">
+                <a href="#" class="ms-1">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 39 39" fill="none">
+                      <path d="M8.625 34.75C8.625 35.6783 8.99375 36.5685 9.65013 37.2249C10.3065 37.8813 11.1967 38.25 12.125 38.25C13.0533 38.25 13.9435 37.8813 14.5999 37.2249C15.2563 36.5685 15.625 35.6783 15.625 34.75M20.875 34.75C20.875 35.6783 21.2437 36.5685 21.9001 37.2249C22.5565 37.8813 23.4467 38.25 24.375 38.25C25.3033 38.25 26.1935 37.8813 26.8499 37.2249C27.5063 36.5685 27.875 35.6783 27.875 34.75M11.25 11.125H38.375V11.5625L37.9567 12.0577C33.7055 17.1065 31.3745 23.4948 31.375 30.095V30.375H8.625V27.085C8.625 23.445 8.5095 19.8085 7.9495 16.214C6.98 9.991 4.83975 0.625 0.75 0.625" stroke="#6E419A"/>
+                    </svg>
+                </a>
+                </div>
+              </div>                        
+          </article>
         </div>
-
+        </div>
       </div>  
     </section>
 

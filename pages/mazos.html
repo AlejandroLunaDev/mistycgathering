@@ -57,7 +57,7 @@
                     <a class="nav-link text-light"  href="mazos.html">mazos</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link text-light" href="#">ediciones</a>
+                    <a class="nav-link text-light" href="./ediciones.html">ediciones</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link text-light" href="bazar.html">bazar</a>
@@ -106,7 +106,9 @@
         <div class="offcanvas offcanvas-start nav-responsive__canvas" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
           <div class="offcanvas-header">
             <div class="offcanvas-title" id="offcanvasNavbarLabel">
-              <img class="nav-logo" src="./img/logoMG.png" alt="">
+              <a href="../index.html">
+                <img class="nav-logo" src="../img/logoMG.png" alt="logo">
+              </a>
             </div>
             <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
           </div>
@@ -116,7 +118,7 @@
                 <a class="nav-link text-light" aria-current="page" href="./mazos.html">mazos</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link text-light" href="#">ediciones</a>
+                <a class="nav-link text-light" href="./ediciones.html">ediciones</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link text-light" href="./bazar.html">bazar</a>
@@ -195,6 +197,8 @@
         </article>
     </section>
 
+ 
+
         <!--///////////////////////////////////////////////////////////////////////////////////////////
     MAZOS / MAIN / MAZOS
     ///////////////////////////////////////////////////////////////////////////////////////////
@@ -202,9 +206,24 @@
 
     <section class="mazos__section">
         <header class="header">
+          <select class="form-select header__select-responsive mb-2" aria-label="Default select example">
+            <option selected">pauper</option>
+            <option value="1">standard</option>
+            <option value="2">modern</option>
+            <option value="3">historic</option>
+            <option value="4">pioneer</option>
+            <option value="5">explorer</option>
+            <option value="6">alchemy</option>
+            <option value="7">legacy</option>
+            <option value="8">vintage</option>
+            <option value="9">commander</option>
+            <option value="10">commander 1vs1</option>
+            <option value="11">brawl</option>
+          </select>
             <h1>Pauper metagame</h1>
             <div class="header__select">
                 <h5>Mostrar mazos de los últimos</h5>
+                
                 <select class="form-select custom-select-deck " aria-label="Default select example">
                     <option selected>7 días</option>
                     <option value="1">14 días</option>

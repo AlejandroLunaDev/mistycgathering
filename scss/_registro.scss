@@ -6,11 +6,15 @@
     & article {
         background-color: $color-tertiary;
         margin-top: 30px;
+        width: 50%;
+        @media (width < map.get($break-pontis, "xs")) {
+            width: 300px ;
+        }
         & h3 {
             margin-top: 10px;
         }
         & .custom-form {
-            background-color: $color-tertiary;
+/*             background-color: $color-tertiary; */
             @include flex;
             padding: 30px;
 

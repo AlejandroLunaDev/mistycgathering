@@ -1,3 +1,5 @@
+@use "sass:map";
+
 .mazos {
 
     &__subNav {
@@ -18,7 +20,7 @@
         margin-bottom: 70px;
         & .header {
                 margin-bottom: 20px;
-                & .header__select {
+                &__select {
                     @include flex ($fw:nowrap,$jc:flex-start);
                     height: 40px;
                     & select {
@@ -39,9 +41,15 @@
                     }
                     
                 }
+                &__select-responsive{
+                    display: none;
+                    width: 200px;
+                    @media (width < map.get($break-pontis, "sm")) {
+                        display: block;
+                    }
+                }
             }
         & article {
-            
             & .card-body {
                 & h5 {
                     font-size: 25px;
@@ -82,8 +90,6 @@
                 padding: 5px;
                 margin-bottom: 10px;
             }
-
         }
-
     }
 }

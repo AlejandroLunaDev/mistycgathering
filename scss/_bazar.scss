@@ -1,25 +1,21 @@
 @use "sass:map";
+
 .section-bazar {
     margin-bottom: 40px;
-    
+    @include flex;
     & .cartas-populares {
     
         @media (width < map.get($break-pontis, "md")) {
     
             &__body {
                 @include flex;
-                & .carousel-item {
-                    &__carta {
-                        &:nth-last-child(-n+3) {
-                            display: none;
-                        }
-                    }
-                }
+                & .last {
+                 display: none;
             }
         }
     }
 }
-
+}
 .bazar-hero {
 
     & h1 {
