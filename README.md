@@ -18,6 +18,10 @@ Bienvenido a Mistyc Gathering, una plataforma para entusiastas de Magic: The Gat
 
  <img src="https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg" alt="HTML" height="50"/>&nbsp;&nbsp;    <img src="https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg" alt="CSS" height="50"/>&nbsp;&nbsp;   <img src="https://upload.wikimedia.org/wikipedia/commons/9/96/Sass_Logo_Color.svg" alt="Sass" height="50"/>&nbsp;&nbsp; <img src="https://upload.wikimedia.org/wikipedia/commons/b/b2/Bootstrap_logo.svg" alt="Bootstrap" height="50"/>&nbsp;
 
+## Figma
+
+**Visita:** https://www.figma.com/file/Ddp27353WPan7dyO9LlwOQ/Coderhouse-2023?type=design&node-id=0%3A1&mode=design&t=amKc1gb9MDAsRT6O-1
+
 ## Cómo usar
 
 1. **Visita:** https://alejandrolunadev.github.io/mistycgathering/
@@ -44,3 +48,5 @@ Si encuentras algún problema o tienes sugerencias para mejorar el proyecto, por
 ## Autor
 
 Alejandro Luna https://github.com/AlejandroLunaDev/AlejandroLunaDev
+
+
