@@ -41,6 +41,6 @@ Bienvenido a Mistyc Gathering, una plataforma para entusiastas de Magic: The Gat
 Si encuentras algún problema o tienes sugerencias para mejorar el proyecto, por favor [abre un issue](https://github.com/AlejandroLunaDev/mistycgathering/issues).
 
 
-##Autor
+## Autor
 
 Alejandro Luna https://github.com/AlejandroLunaDev/AlejandroLunaDev
