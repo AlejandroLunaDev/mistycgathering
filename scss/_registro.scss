@@ -56,4 +56,12 @@
             background-color: darken($color-primary,10) ;
         }
     }
+    & .checkbox {
+        @include flex($fw:nowrap, $al:none);
+        width: 50%;
+        margin-top: 20px;
+       & input {
+        cursor: pointer;
+       }
+    }
 }

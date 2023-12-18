@@ -310,6 +310,7 @@
 }
 .footer .copyright p {
   font-size: 12px;
+  display: flex;
 }
 
 .cartas-populares {
@@ -736,6 +737,17 @@
 .section-registro .btn-submit:hover {
   background-color: #ae6418;
 }
+.section-registro .checkbox {
+  display: flex;
+  justify-content: center;
+  align-items: none;
+  flex-wrap: nowrap;
+  width: 50%;
+  margin-top: 20px;
+}
+.section-registro .checkbox input {
+  cursor: pointer;
+}
 
 .section-bazar {
   margin-bottom: 40px;
@@ -801,4 +813,16 @@
 }
 .custom-section-articulos article .custom-price svg {
   cursor: pointer;
+}
+
+.main-tienda {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+.main-tienda section {
+  width: 80%;
+  background-color: white;
 }/*# sourceMappingURL=styles.css.map */

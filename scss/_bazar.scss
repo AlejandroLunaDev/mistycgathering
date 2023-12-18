@@ -8,7 +8,7 @@
         @media (width < map.get($break-pontis, "md")) {
     
             &__body {
-                @include flex;
+                @include flex   ;
                 & .last {
                  display: none;
             }

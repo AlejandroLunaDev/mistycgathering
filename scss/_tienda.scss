@@ -1,0 +1,9 @@
+.main-tienda {
+    @include flex;
+    flex-direction: column;
+
+    & section {
+        width: 80%;
+        background-color: #ffff;
+    }
+}
