@@ -791,6 +791,10 @@
 }
 .custom-section-articulos article .custom-card-end {
   margin-top: 140px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
 }
 .custom-section-articulos article img {
   width: 100%;
@@ -806,7 +810,7 @@
   width: 70px;
   padding: 5px;
   font-size: 15px;
-  margin-left: 40rem;
+  margin-top: 50px;
 }
 .custom-section-articulos article .custom-price small {
   margin-left: 5px;

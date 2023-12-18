@@ -1,9 +1,12 @@
+@use "sass:map";
+
 .custom-section-articulos {
 
     & article {
         width: 100%;
         & .custom-card-end {
             margin-top: 140px;
+            @include flex($jc:space-between);
         }
         & img {
             width: 100%;
@@ -16,7 +19,7 @@
             width: 70px;
             padding: 5px;
             font-size: 15px;
-            margin-left: 40rem;
+            margin-top: 50px;
 
             & small {
                 margin-left: 5px;
