@@ -1,3 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 .container-grid h1, .container-grid h2 {
   font-family: "Cinzel", serif;
 }
@@ -87,6 +93,15 @@
   .container-grid .mazos__main {
     grid-template-columns: repeat(2, 1fr);
   }
+}
+
+article {
+  view-timeline-name: --article;
+  view-timeline-axis: block;
+  animation-range: entry 35% cover 30%;
+  animation-timeline: --article;
+  animation-name: show;
+  animation-fill-mode: both;
 }
 
 .nav {
@@ -829,4 +844,15 @@
 .main-tienda section {
   width: 80%;
   background-color: white;
+}
+
+@keyframes show {
+  from {
+    opacity: 0;
+    scale: 25%;
+  }
+  to {
+    opacity: 1;
+    scale: 100%;
+  }
 }/*# sourceMappingURL=styles.css.map */
