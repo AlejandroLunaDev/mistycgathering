@@ -5,6 +5,7 @@
     &__subNav {
         margin-top: 20px;
         text-transform: capitalize;
+        animation: move 0.8s ease-out;
         
         & a{
             color: $color-secondary;

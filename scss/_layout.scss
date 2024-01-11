@@ -116,10 +116,10 @@
 }
 
 
-article {
+aside {
     view-timeline-name: --article;
     view-timeline-axis: block;
-    animation-range: entry 35% cover 30%;
+    animation-range: entry 15% cover 30%;
     animation-timeline: --article;
     animation-name: show;
     animation-fill-mode: both;

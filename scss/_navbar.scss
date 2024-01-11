@@ -2,14 +2,14 @@
 
 
 .nav {
-    background-color:$color-secondary;
+    background-color:$color-secondary;  
     justify-content: space-around;
 
  
 
     & .navbar-brand {
+        
         @include flex;
-
         &__logo {
             height: 120px;
             rotate: calc(-20deg);

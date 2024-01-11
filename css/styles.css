@@ -95,10 +95,10 @@
   }
 }
 
-article {
+aside {
   view-timeline-name: --article;
   view-timeline-axis: block;
-  animation-range: entry 35% cover 30%;
+  animation-range: entry 15% cover 30%;
   animation-timeline: --article;
   animation-name: show;
   animation-fill-mode: both;
@@ -600,6 +600,7 @@ article {
 .mazos__subNav {
   margin-top: 20px;
   text-transform: capitalize;
+  animation: move 0.8s ease-out;
 }
 .mazos__subNav a {
   color: #6E419A;
@@ -855,4 +856,16 @@ article {
     opacity: 1;
     scale: 100%;
   }
-}/*# sourceMappingURL=styles.css.map */
+}
+@keyframes move {
+  from {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */
